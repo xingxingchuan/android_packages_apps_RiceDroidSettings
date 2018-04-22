@@ -59,17 +59,6 @@
          android:entryValues="@array/settings_dashboard_style_values"
          android:summary="%s"
          android:defaultValue="0" />
-          
-    <!-- Display Cutout -->
-    <Preference
-        android:key="display_cutout_force_fullscreen_settings"
-        android:icon="@drawable/ic_fullscreen"
-        android:title="@string/display_cutout_force_fullscreen_title"
-        android:summary="@string/display_cutout_force_fullscreen_summary">
-        <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.rice.settings.fragments.ui.DisplayCutoutForceFullscreenActivity"/>
-    </Preference>
 
     <!-- Screen Off animation -->
     <com.rice.settings.preferences.SystemSettingListPreference

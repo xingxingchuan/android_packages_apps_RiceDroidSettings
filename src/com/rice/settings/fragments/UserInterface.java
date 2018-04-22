@@ -53,7 +53,6 @@ public class UserInterface extends SettingsPreferenceFragment implements OnPrefe
 
     public static final String TAG = "UserInterface";
 
-    private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
     private static final String SMART_PIXELS = "smart_pixels";
     private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
     private static final String ALT_SETTINGS_LAYOUT = "alt_settings_layout";
@@ -73,14 +72,6 @@ public class UserInterface extends SettingsPreferenceFragment implements OnPrefe
 
         Context mContext = getActivity().getApplicationContext();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-	    final String displayCutout =
-            mContext.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
-
-        if (TextUtils.isEmpty(displayCutout)) {
-            mShowCutoutForce = (Preference) findPreference(KEY_FORCE_FULL_SCREEN);
-            prefScreen.removePreference(mShowCutoutForce);
-        }
 
         mSmartPixels = (Preference) prefScreen.findPreference(SMART_PIXELS);
         boolean mSmartPixelsSupported = getResources().getBoolean(
@@ -126,13 +117,6 @@ public class UserInterface extends SettingsPreferenceFragment implements OnPrefe
                 @Override
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
-
-	                final String displayCutout =
-                        context.getResources().getString(com.android.internal.R.string.config_mainBuiltInDisplayCutout);
-
-                    if (TextUtils.isEmpty(displayCutout)) {
-                        keys.add(KEY_FORCE_FULL_SCREEN);
-                    }
 
                     boolean mSmartPixelsSupported = context.getResources().getBoolean(
                             com.android.internal.R.bool.config_supportSmartPixels);

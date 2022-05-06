@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Ρυθμίσεις</string>
-    <string name="crdroid_settings_summary">Ανοίξτε τα \"καλούδια\"</string>
+    <string name="rice_settings_title">riceDroid Ρυθμίσεις</string>
+    <string name="rice_settings_summary">Ανοίξτε τα \"καλούδια\"</string>
     <string name="reset_settings_title">Επαναφορά ρυθμίσεων</string>
-    <string name="reset_settings_message">Αυτό θα επαναφέρει τις περισσότερες ρυθμίσεις crdroid στις προεπιλεγμένες τιμές τους για τον τρέχοντα χρήστη. Θέλετε να συνεχίσετε;</string>
+    <string name="reset_settings_message">Αυτό θα επαναφέρει τις περισσότερες ρυθμίσεις rice στις προεπιλεγμένες τιμές τους για τον τρέχοντα χρήστη. Θέλετε να συνεχίσετε;</string>
     <!-- Personalization Categories -->
     <string name="button_title">Κουμπιά</string>
     <string name="lockscreen_title">Οθόνη κλειδώματος</string>
@@ -53,40 +53,40 @@
     <string name="enable">Ενεργοποίηση</string>
     <string name="disable">Απενεργοποίηση</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Τρέχον αρχείο αλλαγών</string>
-    <string name="changelog_crdroid_summary">Προβολή αλλαγών στην εγκατεστημένη ROM</string>
-    <string name="changelog_crdroid_error">Αποτυχία φόρτωσης του αρχείου αλλαγών</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Σχετικά με το crDroid</string>
+    <string name="changelog_rice_title">Τρέχον αρχείο αλλαγών</string>
+    <string name="changelog_rice_summary">Προβολή αλλαγών στην εγκατεστημένη ROM</string>
+    <string name="changelog_rice_error">Αποτυχία φόρτωσης του αρχείου αλλαγών</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">Σχετικά με το riceDroid</string>
     <string name="about_device_name">Συσκευή</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Μοιραστείτε το crDroid</string>
-    <string name="share_crdroid_summary">Ενημερώστε τους άλλους για το crDroid</string>
-    <string name="share_message">Ελέγξτε αν το #crDroidAndroid είναι διαθέσιμο για τη συσκευή σας @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Μοιραστείτε το crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Μας αρέσει ο ανοιχτός κώδικας, ελέγξτε μας</string>
-    <string name="crdroid_telegram_title">Κοινότητα crDroid</string>
-    <string name="crdroid_telegram_summary">Είμαστε στο telegram. Ελάτε μαζί μας!</string>
-    <string name="crdroid_telegram_channel_title">Κανάλι ενημερώσεων</string>
-    <string name="crdroid_telegram_channel_summary">Ενημερωθείτε για νέες εκδόσεις στο Telegram</string>
-    <string name="crdroid_website_title">Επίσημη ιστοσελίδα</string>
-    <string name="crdroid_website_summary">Επισκεφτείτε την επίσημη ιστοσελίδα μας</string>
-    <string name="crdroid_translate_title">Μεταφράσεις</string>
-    <string name="crdroid_translate_summary">Βοηθήστε στη μετάφραση της ROM στη γλώσσα σας!</string>
-    <string name="crdroid_sponsor_summary">Επισκεφθείτε τον συνεργάτη φιλοξενίας της ιστοσελίδας μας</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Υποστηρίξτε μας</string>
-    <string name="donate_crdroid_summary">Δωρεά για την υποστήριξη της περαιτέρω ανάπτυξης</string>
-    <string name="donate_team_title">Ομάδα crDroid</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Μοιραστείτε το riceDroid</string>
+    <string name="share_rice_summary">Ενημερώστε τους άλλους για το riceDroid</string>
+    <string name="share_message">Ελέγξτε αν το #riceDroidAndroid είναι διαθέσιμο για τη συσκευή σας @ https://rice.net/</string>
+    <string name="share_chooser_title">Μοιραστείτε το riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">Μας αρέσει ο ανοιχτός κώδικας, ελέγξτε μας</string>
+    <string name="rice_telegram_title">Κοινότητα riceDroid</string>
+    <string name="rice_telegram_summary">Είμαστε στο telegram. Ελάτε μαζί μας!</string>
+    <string name="rice_telegram_channel_title">Κανάλι ενημερώσεων</string>
+    <string name="rice_telegram_channel_summary">Ενημερωθείτε για νέες εκδόσεις στο Telegram</string>
+    <string name="rice_website_title">Επίσημη ιστοσελίδα</string>
+    <string name="rice_website_summary">Επισκεφτείτε την επίσημη ιστοσελίδα μας</string>
+    <string name="rice_translate_title">Μεταφράσεις</string>
+    <string name="rice_translate_summary">Βοηθήστε στη μετάφραση της ROM στη γλώσσα σας!</string>
+    <string name="rice_sponsor_summary">Επισκεφθείτε τον συνεργάτη φιλοξενίας της ιστοσελίδας μας</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Υποστηρίξτε μας</string>
+    <string name="donate_rice_summary">Δωρεά για την υποστήριξη της περαιτέρω ανάπτυξης</string>
+    <string name="donate_team_title">Ομάδα riceDroid</string>
     <string name="donate_team_summary">Δωρεά για την υποστήριξη της φιλοξενίας διακομιστή, του χρόνου λειτουργίας του ιστότοπου και της συνολικής διαχείρισης</string>
     <!-- The Drill -->
     <string name="drill_title">The Drill</string>
     <string name="drill_summary">Βρήκατε ένα σφάλμα; Πέσατε πάνω σε ένα πρόβλημα;</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Ενημερώσεις</string>
-    <string name="crdroid_update_summary">Ελέγξτε και κατεβάστε την τελευταία ενημέρωση</string>
+    <string name="rice_update_title">Ενημερώσεις</string>
+    <string name="rice_update_summary">Ελέγξτε και κατεβάστε την τελευταία ενημέρωση</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Συντόμευση μενού ισχύος</string>
     <string name="qs_footer_services_icon_title">Συντόμευση υπηρεσιών που εκτελούνται</string>
     <string name="qs_footer_settings_icon_title">Συντόμευση ρυθμίσεων</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Νομικές σημειώσεις του crDroid</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">Νομικές σημειώσεις του riceDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Ρυθμιστικό φωτεινότητας</string>
     <string name="qs_show_brightness_slider_never">Να μην εμφανίζεται ποτέ</string>

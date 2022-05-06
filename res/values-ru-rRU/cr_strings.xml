@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Настройки crDroid</string>
-    <string name="crdroid_settings_summary">Здесь происходит волшебство</string>
+    <string name="rice_settings_title">Настройки riceDroid</string>
+    <string name="rice_settings_summary">Здесь происходит волшебство</string>
     <string name="reset_settings_title">Сбросить настройки</string>
-    <string name="reset_settings_message">Это приведет к сбросу большинства настроек crdroid к значениям по умолчанию для текущего пользователя. Продолжить?</string>
+    <string name="reset_settings_message">Это приведет к сбросу большинства настроек rice к значениям по умолчанию для текущего пользователя. Продолжить?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Кнопки</string>
     <string name="lockscreen_title">Экран блокировки</string>
@@ -53,40 +53,40 @@
     <string name="enable">Вкл</string>
     <string name="disable">Отключить</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Текущий список изменений</string>
-    <string name="changelog_crdroid_summary">Просмотр изменений в текущей прошивки</string>
-    <string name="changelog_crdroid_error">Невозможно загрузить список изменений</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">О crDroid</string>
+    <string name="changelog_rice_title">Текущий список изменений</string>
+    <string name="changelog_rice_summary">Просмотр изменений в текущей прошивки</string>
+    <string name="changelog_rice_error">Невозможно загрузить список изменений</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">О riceDroid</string>
     <string name="about_device_name">Устройство</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Рассказать о crDroid</string>
-    <string name="share_crdroid_summary">Пусть другие узнают о crDroid</string>
-    <string name="share_message">Узнайте, доступен ли #crDroidAndroid для вашего устройства на @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Рассказать о crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Мы любим открытый исходный код, посмотрите его</string>
-    <string name="crdroid_telegram_title">Cообщество crDroid</string>
-    <string name="crdroid_telegram_summary">Мы в Telegram. Присоединяйтесь!</string>
-    <string name="crdroid_telegram_channel_title">Канал обновлений</string>
-    <string name="crdroid_telegram_channel_summary">Получать уведомления о новых сборках в Telegram</string>
-    <string name="crdroid_website_title">Официальный сайт</string>
-    <string name="crdroid_website_summary">Посетить наш официальный сайт</string>
-    <string name="crdroid_translate_title">Переводы</string>
-    <string name="crdroid_translate_summary">Помогите перевести прошивку на ваш язык!</string>
-    <string name="crdroid_sponsor_summary">Посетите нашего партнёра по размещению веб-сайтов</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Поддержать нас</string>
-    <string name="donate_crdroid_summary">Пожертвуйте для поддержки дальнейшего развития</string>
-    <string name="donate_team_title">Команда crDroid</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Рассказать о riceDroid</string>
+    <string name="share_rice_summary">Пусть другие узнают о riceDroid</string>
+    <string name="share_message">Узнайте, доступен ли #riceDroidAndroid для вашего устройства на @ https://rice.net/</string>
+    <string name="share_chooser_title">Рассказать о riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">Мы любим открытый исходный код, посмотрите его</string>
+    <string name="rice_telegram_title">Cообщество riceDroid</string>
+    <string name="rice_telegram_summary">Мы в Telegram. Присоединяйтесь!</string>
+    <string name="rice_telegram_channel_title">Канал обновлений</string>
+    <string name="rice_telegram_channel_summary">Получать уведомления о новых сборках в Telegram</string>
+    <string name="rice_website_title">Официальный сайт</string>
+    <string name="rice_website_summary">Посетить наш официальный сайт</string>
+    <string name="rice_translate_title">Переводы</string>
+    <string name="rice_translate_summary">Помогите перевести прошивку на ваш язык!</string>
+    <string name="rice_sponsor_summary">Посетите нашего партнёра по размещению веб-сайтов</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Поддержать нас</string>
+    <string name="donate_rice_summary">Пожертвуйте для поддержки дальнейшего развития</string>
+    <string name="donate_team_title">Команда riceDroid</string>
     <string name="donate_team_summary">Пожертвовать на поддержку хостинга, сайта и общие задачи</string>
     <!-- The Drill -->
     <string name="drill_title">Послание от разработчиков</string>
     <string name="drill_summary">Нашел баг? Столкнулся с проблемой?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Обновления</string>
-    <string name="crdroid_update_summary">Проверьте и загрузите последнее обновление</string>
+    <string name="rice_update_title">Обновления</string>
+    <string name="rice_update_summary">Проверьте и загрузите последнее обновление</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Содержание меню кнопки питания</string>
     <string name="qs_footer_services_icon_title">Значок работающих приложений</string>
     <string name="qs_footer_settings_icon_title">Значок настроек</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">О crDroid</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">О riceDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Ползунок яркости</string>
     <string name="qs_show_brightness_slider_never">Не показывать</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Inställningar</string>
-    <string name="crdroid_settings_summary">Öppna godsaker</string>
+    <string name="rice_settings_title">riceDroid Inställningar</string>
+    <string name="rice_settings_summary">Öppna godsaker</string>
     <string name="reset_settings_title">Återställ inställningar</string>
-    <string name="reset_settings_message">Detta kommer att återställa de flesta inställningar för crdroid till deras standardvärden för den aktuella användaren. Vill du fortsätta?</string>
+    <string name="reset_settings_message">Detta kommer att återställa de flesta inställningar för rice till deras standardvärden för den aktuella användaren. Vill du fortsätta?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Knappar</string>
     <string name="lockscreen_title">Skärmlåset</string>
@@ -53,40 +53,40 @@
     <string name="enable">Aktivera</string>
     <string name="disable">Inaktivera</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Nuvarande ändringslogg</string>
-    <string name="changelog_crdroid_summary">Visa ändringar i den ROM som är installerad</string>
-    <string name="changelog_crdroid_error">Laddningen av ändringsloggen kunde inte genomföras</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Om crDroid</string>
+    <string name="changelog_rice_title">Nuvarande ändringslogg</string>
+    <string name="changelog_rice_summary">Visa ändringar i den ROM som är installerad</string>
+    <string name="changelog_rice_error">Laddningen av ändringsloggen kunde inte genomföras</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">Om riceDroid</string>
     <string name="about_device_name">Enhet</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Dela crDroid</string>
-    <string name="share_crdroid_summary">Dela med dig av crDroid till andra</string>
-    <string name="share_message">Kontrollera ifall #crDroidAndroid finns tillgänglig för din enhet @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Dela med dig av crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Vi älskar öppen källkod, kolla in oss</string>
-    <string name="crdroid_telegram_title">crDroid gemenskap</string>
-    <string name="crdroid_telegram_summary">Vi finns på telegram. Anslut dig till oss!</string>
-    <string name="crdroid_telegram_channel_title">Kanal för uppdateringar</string>
-    <string name="crdroid_telegram_channel_summary">Bli informerad om nya versioner på Telegram</string>
-    <string name="crdroid_website_title">Officiell hemsida</string>
-    <string name="crdroid_website_summary">Besök vår officiella hemsida</string>
-    <string name="crdroid_translate_title">Översättningar</string>
-    <string name="crdroid_translate_summary">Bidra med att lokalisera ROM till ditt språk!</string>
-    <string name="crdroid_sponsor_summary">Besök sponsorn till vår hemsida</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Stöd oss</string>
-    <string name="donate_crdroid_summary">Skänk en donation för att stödja vidare utveckling</string>
-    <string name="donate_team_title">crDroid teamet</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Dela riceDroid</string>
+    <string name="share_rice_summary">Dela med dig av riceDroid till andra</string>
+    <string name="share_message">Kontrollera ifall #riceDroidAndroid finns tillgänglig för din enhet @ https://rice.net/</string>
+    <string name="share_chooser_title">Dela med dig av riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">Vi älskar öppen källkod, kolla in oss</string>
+    <string name="rice_telegram_title">riceDroid gemenskap</string>
+    <string name="rice_telegram_summary">Vi finns på telegram. Anslut dig till oss!</string>
+    <string name="rice_telegram_channel_title">Kanal för uppdateringar</string>
+    <string name="rice_telegram_channel_summary">Bli informerad om nya versioner på Telegram</string>
+    <string name="rice_website_title">Officiell hemsida</string>
+    <string name="rice_website_summary">Besök vår officiella hemsida</string>
+    <string name="rice_translate_title">Översättningar</string>
+    <string name="rice_translate_summary">Bidra med att lokalisera ROM till ditt språk!</string>
+    <string name="rice_sponsor_summary">Besök sponsorn till vår hemsida</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Stöd oss</string>
+    <string name="donate_rice_summary">Skänk en donation för att stödja vidare utveckling</string>
+    <string name="donate_team_title">riceDroid teamet</string>
     <string name="donate_team_summary">Ge en donation för att stödja tillhandahållande av servrar, hemsidans tillgänglighet samt övergripande hantering</string>
     <!-- The Drill -->
     <string name="drill_title">Rutinen</string>
     <string name="drill_summary">Hittade du en bugg? Sprang du på ett problem?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Uppdateringar</string>
-    <string name="crdroid_update_summary">Kontrollera och hämta senaste uppdateringen</string>
+    <string name="rice_update_title">Uppdateringar</string>
+    <string name="rice_update_summary">Kontrollera och hämta senaste uppdateringen</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Genväg till avstängningsmenyn</string>
     <string name="qs_footer_services_icon_title">Genväg till aktiva tjänster</string>
     <string name="qs_footer_settings_icon_title">Genväg till inställningar</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid juridik</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">riceDroid juridik</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Ljusstyrkereglage</string>
     <string name="qs_show_brightness_slider_never">Visa aldrig</string>

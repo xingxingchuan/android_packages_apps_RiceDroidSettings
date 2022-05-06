@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">הגדרות crDroid</string>
-    <string name="crdroid_settings_summary">לפתוח את הטוב</string>
+    <string name="rice_settings_title">הגדרות riceDroid</string>
+    <string name="rice_settings_summary">לפתוח את הטוב</string>
     <string name="reset_settings_title">אפס הגדרות</string>
-    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות crDroid לערכי ברירת המחדל, להמשיך?</string>
+    <string name="reset_settings_message">הגדרה זו תאפס את רוב הגדרות riceDroid לערכי ברירת המחדל, להמשיך?</string>
     <!-- Personalization Categories -->
     <string name="button_title">מקשים</string>
     <string name="lockscreen_title">מסך נעילה</string>
@@ -53,40 +53,40 @@
     <string name="enable">הפעל</string>
     <string name="disable">מושבת</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">יומן השינויים הנוכחי</string>
-    <string name="changelog_crdroid_summary">ראה שינויים ברום שהותקן</string>
-    <string name="changelog_crdroid_error">טעינת יומן השינויים נכשלה</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">אודות crDroid</string>
+    <string name="changelog_rice_title">יומן השינויים הנוכחי</string>
+    <string name="changelog_rice_summary">ראה שינויים ברום שהותקן</string>
+    <string name="changelog_rice_error">טעינת יומן השינויים נכשלה</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">אודות riceDroid</string>
     <string name="about_device_name">מכשיר</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">שתף crDroid</string>
-    <string name="share_crdroid_summary">עזור לאנשים אחרים לדעת אודות crDroid</string>
-    <string name="share_message">בדוק האם crDroidAndroid# זמין למכשיר שלך https://crdroid.net/</string>
-    <string name="share_chooser_title">שתף crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">אנחנו אוהבים מקור פתוח, בדוק אותנו</string>
-    <string name="crdroid_telegram_title">קהילת crDroid</string>
-    <string name="crdroid_telegram_summary">אנחנו גם בטלגרם, תצטרף אלינו!</string>
-    <string name="crdroid_telegram_channel_title">ערוץ עדכונים</string>
-    <string name="crdroid_telegram_channel_summary">קבל הודעה בטלגרם אודות עדכונים חדשים</string>
-    <string name="crdroid_website_title">אתר רשמי</string>
-    <string name="crdroid_website_summary">בקר באתר האינטרנט הרשמי</string>
-    <string name="crdroid_translate_title">תרגומים</string>
-    <string name="crdroid_translate_summary">עזור לנו להתאים את ה-ROM לשפה שלך!</string>
-    <string name="crdroid_sponsor_summary">בקרו במארח האתרים השותף שלנו</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">תמוך בנו</string>
-    <string name="donate_crdroid_summary">תמוך בנו כדי לאפשר המשך פיתוח עתידי</string>
-    <string name="donate_team_title">צוות crDroid</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">שתף riceDroid</string>
+    <string name="share_rice_summary">עזור לאנשים אחרים לדעת אודות riceDroid</string>
+    <string name="share_message">בדוק האם riceDroidAndroid# זמין למכשיר שלך https://rice.net/</string>
+    <string name="share_chooser_title">שתף riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">אנחנו אוהבים מקור פתוח, בדוק אותנו</string>
+    <string name="rice_telegram_title">קהילת riceDroid</string>
+    <string name="rice_telegram_summary">אנחנו גם בטלגרם, תצטרף אלינו!</string>
+    <string name="rice_telegram_channel_title">ערוץ עדכונים</string>
+    <string name="rice_telegram_channel_summary">קבל הודעה בטלגרם אודות עדכונים חדשים</string>
+    <string name="rice_website_title">אתר רשמי</string>
+    <string name="rice_website_summary">בקר באתר האינטרנט הרשמי</string>
+    <string name="rice_translate_title">תרגומים</string>
+    <string name="rice_translate_summary">עזור לנו להתאים את ה-ROM לשפה שלך!</string>
+    <string name="rice_sponsor_summary">בקרו במארח האתרים השותף שלנו</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">תמוך בנו</string>
+    <string name="donate_rice_summary">תמוך בנו כדי לאפשר המשך פיתוח עתידי</string>
+    <string name="donate_team_title">צוות riceDroid</string>
     <string name="donate_team_summary">תירמו לתמיכה בשרתי האחסון, הפעלת האתר והניהול הכללי</string>
     <!-- The Drill -->
     <string name="drill_title">התהליך</string>
     <string name="drill_summary">מצאתם תקלה? נתקלתם בבעיה?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">עדכונים</string>
-    <string name="crdroid_update_summary">בדקו והורידו את העדכון האחרון</string>
+    <string name="rice_update_title">עדכונים</string>
+    <string name="rice_update_summary">בדקו והורידו את העדכון האחרון</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">גוגל פליי</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">קיצור דרך לתפריט הפעלה</string>
     <string name="qs_footer_services_icon_title">קיצור דרך להפעלת שירותים</string>
     <string name="qs_footer_settings_icon_title">קיצור דרך להגדרות</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">חוקי crDroid</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">חוקי riceDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">מחוון בהירות</string>
     <string name="qs_show_brightness_slider_never">אל תציג אף פעם</string>

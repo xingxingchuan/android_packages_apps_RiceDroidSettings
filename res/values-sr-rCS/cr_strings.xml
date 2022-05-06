@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Podešavanja</string>
-    <string name="crdroid_settings_summary">Otvori dobre stvari</string>
+    <string name="rice_settings_title">riceDroid Podešavanja</string>
+    <string name="rice_settings_summary">Otvori dobre stvari</string>
     <string name="reset_settings_title">Resetuj podešavanja</string>
-    <string name="reset_settings_message">Ovo će resetovati većinu crdroid podešavanja na njihove podrazumevane vrednosti za trenutnog korisnika. Želite li da nastavite?</string>
+    <string name="reset_settings_message">Ovo će resetovati većinu rice podešavanja na njihove podrazumevane vrednosti za trenutnog korisnika. Želite li da nastavite?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tasteri</string>
     <string name="lockscreen_title">Zaključani ekran</string>
@@ -53,40 +53,40 @@
     <string name="enable">Uključi</string>
     <string name="disable">Onemogući</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Trenutna lista izmena</string>
-    <string name="changelog_crdroid_summary">Vidi izmene u trenutno instaliranom ROM-u</string>
-    <string name="changelog_crdroid_error">Ne mogu učitati listu izmena</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroid-u</string>
+    <string name="changelog_rice_title">Trenutna lista izmena</string>
+    <string name="changelog_rice_summary">Vidi izmene u trenutno instaliranom ROM-u</string>
+    <string name="changelog_rice_error">Ne mogu učitati listu izmena</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">O riceDroid-u</string>
     <string name="about_device_name">Uređaj</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Podeli crDroid</string>
-    <string name="share_crdroid_summary">Obavesti druge o crDroid-u</string>
-    <string name="share_message">Proveri da li je #crDroidAndroid dostupan za tvoj uređaj @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Podeli crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Mi volimo open source, proveri nas</string>
-    <string name="crdroid_telegram_title">crDroid zajednica</string>
-    <string name="crdroid_telegram_summary">Na Telegramu smo. Pridruži nam se!</string>
-    <string name="crdroid_telegram_channel_title">Update kanal</string>
-    <string name="crdroid_telegram_channel_summary">Budi obavešten o novom verziji na Terlegramu</string>
-    <string name="crdroid_website_title">Zvaničan vebsajt</string>
-    <string name="crdroid_website_summary">Poseti naš zvanični vebsajt</string>
-    <string name="crdroid_translate_title">Prevodi</string>
-    <string name="crdroid_translate_summary">Pomozi nam sa lokalizacijama ROM-a na tvom jeziku!</string>
-    <string name="crdroid_sponsor_summary">Posetite host partnere našeg sajta</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Podržite nas</string>
-    <string name="donate_crdroid_summary">Donirajte da podržite dalji razvoj</string>
-    <string name="donate_team_title">crDroid tim</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Podeli riceDroid</string>
+    <string name="share_rice_summary">Obavesti druge o riceDroid-u</string>
+    <string name="share_message">Proveri da li je #riceDroidAndroid dostupan za tvoj uređaj @ https://rice.net/</string>
+    <string name="share_chooser_title">Podeli riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">Mi volimo open source, proveri nas</string>
+    <string name="rice_telegram_title">riceDroid zajednica</string>
+    <string name="rice_telegram_summary">Na Telegramu smo. Pridruži nam se!</string>
+    <string name="rice_telegram_channel_title">Update kanal</string>
+    <string name="rice_telegram_channel_summary">Budi obavešten o novom verziji na Terlegramu</string>
+    <string name="rice_website_title">Zvaničan vebsajt</string>
+    <string name="rice_website_summary">Poseti naš zvanični vebsajt</string>
+    <string name="rice_translate_title">Prevodi</string>
+    <string name="rice_translate_summary">Pomozi nam sa lokalizacijama ROM-a na tvom jeziku!</string>
+    <string name="rice_sponsor_summary">Posetite host partnere našeg sajta</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Podržite nas</string>
+    <string name="donate_rice_summary">Donirajte da podržite dalji razvoj</string>
+    <string name="donate_team_title">riceDroid tim</string>
     <string name="donate_team_summary">Donirajte da podržite hosting servera, sajt i sveukupno održavanje</string>
     <!-- The Drill -->
     <string name="drill_title">Dril</string>
     <string name="drill_summary">Našli ste grešku? Naišli ste na problem?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Ažuriranja</string>
-    <string name="crdroid_update_summary">Proveri i preuzmi poslednje ažuriranje</string>
+    <string name="rice_update_title">Ažuriranja</string>
+    <string name="rice_update_summary">Proveri i preuzmi poslednje ažuriranje</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Power menu shortcut</string>
     <string name="qs_footer_services_icon_title">Running services shortcut</string>
     <string name="qs_footer_settings_icon_title">Settings shortcut</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid legal</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">riceDroid legal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Brightness slider</string>
     <string name="qs_show_brightness_slider_never">Never show</string>

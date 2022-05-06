@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">Nastavení crDroid</string>
-    <string name="crdroid_settings_summary">Odhalte jeho možnosti</string>
+    <string name="rice_settings_title">Nastavení riceDroid</string>
+    <string name="rice_settings_summary">Odhalte jeho možnosti</string>
     <string name="reset_settings_title">Obnovit nastavení</string>
-    <string name="reset_settings_message">Tímto obnovíte většinu nastavení crDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
+    <string name="reset_settings_message">Tímto obnovíte většinu nastavení riceDroidu pro aktuálního uživatele na výchozí hodnoty. Přejete si pokračovat?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="lockscreen_title">Obrazovka uzamčení</string>
@@ -53,40 +53,40 @@
     <string name="enable">Povolit</string>
     <string name="disable">Zakázat</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Aktuální seznam změn</string>
-    <string name="changelog_crdroid_summary">Zobrazit změny v\u00a0nainstalované ROM</string>
-    <string name="changelog_crdroid_error">Nelze načíst seznam změn</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">O crDroidu</string>
+    <string name="changelog_rice_title">Aktuální seznam změn</string>
+    <string name="changelog_rice_summary">Zobrazit změny v\u00a0nainstalované ROM</string>
+    <string name="changelog_rice_error">Nelze načíst seznam změn</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">O riceDroidu</string>
     <string name="about_device_name">Zařízení</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Sdílet crDroid</string>
-    <string name="share_crdroid_summary">Dejte vědět ostatním o\u00a0crDroidu</string>
-    <string name="share_message">Podívejte se, jestli je k dispozici #crDroidAndroid pro vaše zařízení @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Sdílet crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">GitHub</string>
-    <string name="crdroid_source_summary">Máme rádi open source. Podívejte se, co děláme</string>
-    <string name="crdroid_telegram_title">Komunita crDroidu</string>
-    <string name="crdroid_telegram_summary">Jsme na Telegramu. Přidejte se k\u00a0nám!</string>
-    <string name="crdroid_telegram_channel_title">Kanál aktualizací</string>
-    <string name="crdroid_telegram_channel_summary">Dostávejte na Telegramu oznámení o\u00a0nových sestaveních</string>
-    <string name="crdroid_website_title">Oficiální web</string>
-    <string name="crdroid_website_summary">Navštivte naše oficiální webové stránky</string>
-    <string name="crdroid_translate_title">Překlady</string>
-    <string name="crdroid_translate_summary">Pomozte nám s\u00a0lokalizací ROM do vašeho jazyka!</string>
-    <string name="crdroid_sponsor_summary">Navštivte hostitele našeho webu</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Podpořte nás</string>
-    <string name="donate_crdroid_summary">Přispějte a\u00a0podpořte tak další vývoj</string>
-    <string name="donate_team_title">Tým crDroidu</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Sdílet riceDroid</string>
+    <string name="share_rice_summary">Dejte vědět ostatním o\u00a0riceDroidu</string>
+    <string name="share_message">Podívejte se, jestli je k dispozici #riceDroidAndroid pro vaše zařízení @ https://rice.net/</string>
+    <string name="share_chooser_title">Sdílet riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">GitHub</string>
+    <string name="rice_source_summary">Máme rádi open source. Podívejte se, co děláme</string>
+    <string name="rice_telegram_title">Komunita riceDroidu</string>
+    <string name="rice_telegram_summary">Jsme na Telegramu. Přidejte se k\u00a0nám!</string>
+    <string name="rice_telegram_channel_title">Kanál aktualizací</string>
+    <string name="rice_telegram_channel_summary">Dostávejte na Telegramu oznámení o\u00a0nových sestaveních</string>
+    <string name="rice_website_title">Oficiální web</string>
+    <string name="rice_website_summary">Navštivte naše oficiální webové stránky</string>
+    <string name="rice_translate_title">Překlady</string>
+    <string name="rice_translate_summary">Pomozte nám s\u00a0lokalizací ROM do vašeho jazyka!</string>
+    <string name="rice_sponsor_summary">Navštivte hostitele našeho webu</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Podpořte nás</string>
+    <string name="donate_rice_summary">Přispějte a\u00a0podpořte tak další vývoj</string>
+    <string name="donate_team_title">Tým riceDroidu</string>
     <string name="donate_team_summary">Přispějte na podporu hostingového serveru, provoz a\u00a0celkovou správu webu</string>
     <!-- The Drill -->
     <string name="drill_title">Výcvik</string>
     <string name="drill_summary">Našli jste chybu? Narazili jste na problém?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Aktualizace</string>
-    <string name="crdroid_update_summary">Zkontrolovat aktualizaci OTA a\u00a0odkazy pro zařízení</string>
+    <string name="rice_update_title">Aktualizace</string>
+    <string name="rice_update_summary">Zkontrolovat aktualizaci OTA a\u00a0odkazy pro zařízení</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Obchod Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Zkratka menu napájení</string>
     <string name="qs_footer_services_icon_title">Zástupce spuštěných služeb</string>
     <string name="qs_footer_settings_icon_title">Zástupce Nastavení</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">Licence crDroid</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">Licence riceDroid</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Posuvník jasu</string>
     <string name="qs_show_brightness_slider_never">Nikdy nezobrazovat</string>

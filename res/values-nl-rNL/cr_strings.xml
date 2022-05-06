@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2016-2022 crDroid Android Project
+     Copyright (C) 2016-2022 riceDroid Android Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -16,10 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="crdroid_settings_title">crDroid Instellingen</string>
-    <string name="crdroid_settings_summary">Goodies</string>
+    <string name="rice_settings_title">riceDroid Instellingen</string>
+    <string name="rice_settings_summary">Goodies</string>
     <string name="reset_settings_title">Instellingen resetten</string>
-    <string name="reset_settings_message">Dit zal de meeste crdroid instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
+    <string name="reset_settings_message">Dit zal de meeste rice instellingen terugzetten op de standaardwaarden voor de huidige gebruiker. Wilt u doorgaan?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Knoppen</string>
     <string name="lockscreen_title">Schermvergrendeling</string>
@@ -53,40 +53,40 @@
     <string name="enable">Inschakelen</string>
     <string name="disable">Uitschakelen</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Huidige veranderingen</string>
-    <string name="changelog_crdroid_summary">Bekijk wijzigingen in de geïnstalleerde rom</string>
-    <string name="changelog_crdroid_error">Kan changelog niet laden</string>
-    <!-- About crDroid -->
-    <string name="about_crdroid">Over crDroid</string>
+    <string name="changelog_rice_title">Huidige veranderingen</string>
+    <string name="changelog_rice_summary">Bekijk wijzigingen in de geïnstalleerde rom</string>
+    <string name="changelog_rice_error">Kan changelog niet laden</string>
+    <!-- About riceDroid -->
+    <string name="about_rice">Over riceDroid</string>
     <string name="about_device_name">Apparaat</string>
-    <!-- Share crDroid -->
-    <string name="share_crdroid_title">Deel crDroid</string>
-    <string name="share_crdroid_summary">Laat anderen weten over crDroid</string>
-    <string name="share_message">Kijk eens of #crDroidAndroid beschikbaar is voor uw apparaat @ https://crdroid.net/</string>
-    <string name="share_chooser_title">Deel crDroid</string>
-    <!-- Sites crDroid -->
-    <string name="crdroid_source_title">Github</string>
-    <string name="crdroid_source_summary">We houden van open source, neem een kijkje</string>
-    <string name="crdroid_telegram_title">crDroid gemeenschap</string>
-    <string name="crdroid_telegram_summary">Wij zitten op Telegram. Kom er bij!</string>
-    <string name="crdroid_telegram_channel_title">Updatekanaal</string>
-    <string name="crdroid_telegram_channel_summary">Ontvang een melding van nieuwe builds op Telegram</string>
-    <string name="crdroid_website_title">Officiële website</string>
-    <string name="crdroid_website_summary">Bezoek onze officiële website</string>
-    <string name="crdroid_translate_title">Vertalingen</string>
-    <string name="crdroid_translate_summary">Help met lokalisatie van de ROM in jouw taal!</string>
-    <string name="crdroid_sponsor_summary">Bezoek onze website host partner</string>
-    <!-- Donate crDroid -->
-    <string name="donate_crdroid_title">Steun ons</string>
-    <string name="donate_crdroid_summary">Doneer om verdere ontwikkeling te ondersteunen</string>
-    <string name="donate_team_title">crDroid team</string>
+    <!-- Share riceDroid -->
+    <string name="share_rice_title">Deel riceDroid</string>
+    <string name="share_rice_summary">Laat anderen weten over riceDroid</string>
+    <string name="share_message">Kijk eens of #riceDroidAndroid beschikbaar is voor uw apparaat @ https://rice.net/</string>
+    <string name="share_chooser_title">Deel riceDroid</string>
+    <!-- Sites riceDroid -->
+    <string name="rice_source_title">Github</string>
+    <string name="rice_source_summary">We houden van open source, neem een kijkje</string>
+    <string name="rice_telegram_title">riceDroid gemeenschap</string>
+    <string name="rice_telegram_summary">Wij zitten op Telegram. Kom er bij!</string>
+    <string name="rice_telegram_channel_title">Updatekanaal</string>
+    <string name="rice_telegram_channel_summary">Ontvang een melding van nieuwe builds op Telegram</string>
+    <string name="rice_website_title">Officiële website</string>
+    <string name="rice_website_summary">Bezoek onze officiële website</string>
+    <string name="rice_translate_title">Vertalingen</string>
+    <string name="rice_translate_summary">Help met lokalisatie van de ROM in jouw taal!</string>
+    <string name="rice_sponsor_summary">Bezoek onze website host partner</string>
+    <!-- Donate riceDroid -->
+    <string name="donate_rice_title">Steun ons</string>
+    <string name="donate_rice_summary">Doneer om verdere ontwikkeling te ondersteunen</string>
+    <string name="donate_team_title">riceDroid team</string>
     <string name="donate_team_summary">Doneer ter ondersteuning van de server hosting, site uptime en algemeen beheer</string>
     <!-- The Drill -->
     <string name="drill_title">Zoals het hoort</string>
     <string name="drill_summary">Bug gevonden? Zijn er problemen?</string>
     <!-- OTA -->
-    <string name="crdroid_update_title">Updates</string>
-    <string name="crdroid_update_summary">Controleer en download de nieuwste updates</string>
+    <string name="rice_update_title">Updates</string>
+    <string name="rice_update_summary">Controleer en download de nieuwste updates</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Custom seekbar -->
@@ -541,8 +541,8 @@
     <string name="qs_footer_show_power_menu_title">Snelkoppeling Aan-/Uit menu</string>
     <string name="qs_footer_services_icon_title">Snelkoppeling voor actieve services</string>
     <string name="qs_footer_settings_icon_title">Snelkoppeling instellingen</string>
-    <!-- Device Info screen. crDroid legal. -->
-    <string name="crdroid_license_title">crDroid legaal</string>
+    <!-- Device Info screen. riceDroid legal. -->
+    <string name="rice_license_title">riceDroid legaal</string>
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_slider_title">Helderheidsregelaar</string>
     <string name="qs_show_brightness_slider_never">Nooit weergeven</string>

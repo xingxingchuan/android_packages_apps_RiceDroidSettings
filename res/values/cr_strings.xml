@@ -1077,4 +1077,8 @@
     <string name="settings_dashboard_style_oos2">OOS MicroG</string>
     <string name="settings_dashboard_style_wave">WaveOS Gapps</string>
     <string name="settings_dashboard_style_wave2">WaveOS MicroG</string>
+
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
 </resources>

@@ -42,18 +42,22 @@ import com.rice.settings.fragments.ui.DozeSettings;
 import com.rice.settings.fragments.ui.SmartPixels;
 import com.rice.settings.fragments.ui.MonetSettings;
 
+import com.android.internal.util.crdroid.Utils;
+import com.rice.settings.preferences.SystemSettingListPreference;
 import java.util.List;
 
 @SearchIndexable
-public class UserInterface extends SettingsPreferenceFragment {
+public class UserInterface extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
     public static final String TAG = "UserInterface";
 
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
     private static final String SMART_PIXELS = "smart_pixels";
+    private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
 
     private Preference mShowCutoutForce;
     private Preference mSmartPixels;
+    private SystemSettingListPreference mSettingsDashBoardStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -77,6 +81,19 @@ public class UserInterface extends SettingsPreferenceFragment {
                 com.android.internal.R.bool.config_supportSmartPixels);
         if (!mSmartPixelsSupported)
             prefScreen.removePreference(mSmartPixels);
+            
+        mSettingsDashBoardStyle = (SystemSettingListPreference) findPreference(SETTINGS_DASHBOARD_STYLE);
+        mSettingsDashBoardStyle.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+	if (preference == mSettingsDashBoardStyle) {
+            Utils.showSettingsRestartDialog(getContext());
+            return true;
+        }
+        return false;
     }
 
     public static void reset(Context mContext) {

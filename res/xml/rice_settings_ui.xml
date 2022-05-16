@@ -96,6 +96,17 @@
         android:summary="@string/theme_customization_icon_pack_summary"
         android:fragment="com.rice.settings.fragments.ui.StatusbarIcons"/>
 
+
+    <!-- Settings style -->
+    <com.rice.settings.preferences.SystemSettingListPreference
+            android:key="settings_dashboard_style"
+            android:icon="@drawable/ic_cog"
+            android:title="@string/settings_dashboard_style_title"
+            android:entries="@array/settings_dashboard_style_entries"
+            android:entryValues="@array/settings_dashboard_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+            
     <!-- Signal icon style -->
     <Preference
         android:key="android.theme.customization.signal_icon"
@@ -103,7 +114,7 @@
         android:title="@string/theme_customization_signal_icon_title"
         android:summary="@string/theme_customization_signal_icon_summary"
         android:fragment="com.rice.settings.fragments.ui.SignalIcons"/>
-
+            
     <!-- Wifi icon style -->
     <Preference
         android:key="android.theme.customization.wifi_icon"

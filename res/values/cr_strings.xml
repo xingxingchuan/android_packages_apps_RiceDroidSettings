@@ -1070,4 +1070,11 @@
     <string name="status_bar_logo_style_gender_female">Female</string>
     <string name="status_bar_logo_style_gender_male_female">Male &amp; female</string>
     <string name="status_bar_logo_style_guitar_electric">Electric guitar</string>
+    
+   <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings Styles</string>
+    <string name="settings_dashboard_style_oos">OOS Gapps</string>
+    <string name="settings_dashboard_style_oos2">OOS MicroG</string>
+    <string name="settings_dashboard_style_wave">WaveOS Gapps</string>
+    <string name="settings_dashboard_style_wave2">WaveOS MicroG</string>
 </resources>

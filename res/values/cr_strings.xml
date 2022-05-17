@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="rice_settings_title" translatable="false">riceDroid Ricing</string>
-    <string name="rice_settings_summary">Android Ricing for everyone!</string>
+    <string name="rice_settings_title" translatable="false">Customization</string>
+    <string name="rice_settings_summary" translatable="false">Themes, Accent Color, font</string>
     <string name="reset_settings_title">Reset settings</string>
     <string name="reset_settings_message">This will reset most rice settings to their default values for the current user. Would you like to continue?</string>
 
@@ -1073,10 +1073,12 @@
     
    <!-- Custom settings dashboard style -->
     <string name="settings_dashboard_style_title">Settings Styles</string>
-    <string name="settings_dashboard_style_oos">OOS Gapps</string>
-    <string name="settings_dashboard_style_oos2">OOS MicroG</string>
-    <string name="settings_dashboard_style_wave">WaveOS Gapps</string>
-    <string name="settings_dashboard_style_wave2">WaveOS MicroG</string>
+    <string name="settings_dashboard_style_oos">RiceUI Gapps</string>
+    <string name="settings_dashboard_style_oos2">RiceUI MicroG</string>
+    <string name="settings_dashboard_style_wave">MaterialUI Gapps</string>
+    <string name="settings_dashboard_style_wave2">MaterialUI MicroG</string>
+    <string name="settings_dashboard_style_rui">PalletteUI Gapps</string>
+    <string name="settings_dashboard_style_rui2">PalletteUI MicroG</string>
 
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>

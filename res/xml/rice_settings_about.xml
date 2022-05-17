@@ -29,26 +29,12 @@
              android:targetClass="com.rice.settings.fragments.about.ChangelogActivity"/>
     </Preference>
 
-    <!-- riceDroid Website -->
-    <Preference
-        android:key="rice_website"
-        android:icon="@drawable/ic_web"
-        android:title="@string/rice_website_title"
-        android:summary="@string/rice_website_summary" />
-
     <!-- riceDroid Translate -->
     <Preference
         android:key="rice_translate"
         android:icon="@drawable/ic_translate"
         android:title="@string/rice_translate_title"
         android:summary="@string/rice_translate_summary" />
-
-    <!-- riceDroid Share -->
-    <Preference
-        android:key="rice_share"
-        android:icon="@drawable/ic_share"
-        android:title="@string/share_rice_title"
-        android:summary="@string/share_rice_summary" />
 
     <!-- riceDroid Donate -->
     <Preference
@@ -64,26 +50,12 @@
         android:title="@string/rice_source_title"
         android:summary="@string/rice_source_summary" />
 
-    <!-- riceDroid Telegram -->
-    <Preference
-        android:key="rice_telegram"
-        android:icon="@drawable/ic_telegram"
-        android:title="@string/rice_telegram_title"
-        android:summary="@string/rice_telegram_summary" />
-
     <!-- riceDroid Telegram Updates Channel -->
     <Preference
         android:key="rice_telegram_channel"
         android:icon="@drawable/ic_telegram_channel"
         android:title="@string/rice_telegram_channel_title"
         android:summary="@string/rice_telegram_channel_summary" />
-
-    <!-- riceDroid sponsor -->
-    <Preference
-        android:key="rice_sponsor"
-        android:icon="@drawable/ic_sponsor"
-        android:title="@string/rice_sponsor_title"
-        android:summary="@string/rice_sponsor_summary" />
 
     <!-- riceDroid OTA update -->
     <Preference

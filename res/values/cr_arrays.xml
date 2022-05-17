@@ -733,6 +733,8 @@
         <item>@string/settings_dashboard_style_oos2</item>
         <item>@string/settings_dashboard_style_wave</item>
         <item>@string/settings_dashboard_style_wave2</item>
+        <item>@string/settings_dashboard_style_rui</item>
+        <item>@string/settings_dashboard_style_rui2</item>
     </string-array>
 
     <string-array name="settings_dashboard_style_values" translatable="false">
@@ -740,5 +742,7 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 </resources>

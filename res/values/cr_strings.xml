@@ -1079,6 +1079,8 @@
     <string name="settings_dashboard_style_wave2">MaterialUI MicroG</string>
     <string name="settings_dashboard_style_rui">PalletteUI Gapps</string>
     <string name="settings_dashboard_style_rui2">PalletteUI MicroG</string>
+    <string name="settings_dashboard_style_arc">ArcUI Gapps</string>
+    <string name="settings_dashboard_style_arc2">ArcUI MicroG</string>
 
     <!-- Udfps Haptic Feedback -->
     <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>

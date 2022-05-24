@@ -138,34 +138,10 @@
     <PreferenceCategory
         android:title="@string/media_category">
 
-        <com.rice.settings.preferences.SystemSettingSwitchPreference
-            android:key="artwork_media_background"
-            android:title="@string/artwork_media_background_title"
-            android:icon="@drawable/ic_music"
-            android:summary="@string/artwork_media_background_summary"
-            android:defaultValue="false" />
-
-        <com.rice.settings.preferences.SystemSettingSwitchPreference
-            android:key="artwork_media_background_enable_blur"
-            android:icon="@drawable/ic_blur"
-            android:title="@string/artwork_media_background_enable_blur_title"
-            android:dependency="artwork_media_background"
-            android:defaultValue="false" />
-
-        <com.rice.settings.preferences.SystemSettingSeekBarPreference
-            android:key="artwork_media_background_blur_radius"
-            android:icon="@drawable/ic_custom_seekbar_plus"
-            android:title="@string/artwork_media_background_blur_radius_title"
-            android:dependency="artwork_media_background_enable_blur"
-            android:defaultValue="1"
-            android:max="25"
-            settings:min="1" />
-
         <com.rice.settings.preferences.SystemSettingSeekBarPreference
             android:key="artwork_media_background_alpha"
             android:icon="@drawable/ic_color_bucket"
             android:title="@string/artwork_media_background_alpha_title"
-            android:dependency="artwork_media_background"
             android:defaultValue="255"
             android:max="255"
             settings:min="0" />

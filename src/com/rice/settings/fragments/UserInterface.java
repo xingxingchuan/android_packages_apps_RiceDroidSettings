@@ -44,6 +44,8 @@ import com.rice.settings.fragments.ui.MonetSettings;
 
 import com.android.internal.util.crdroid.Utils;
 import com.rice.settings.preferences.SystemSettingListPreference;
+import com.rice.settings.preferences.SystemSettingSwitchPreference;
+
 import java.util.List;
 
 @SearchIndexable
@@ -54,10 +56,16 @@ public class UserInterface extends SettingsPreferenceFragment implements OnPrefe
     private static final String KEY_FORCE_FULL_SCREEN = "display_cutout_force_fullscreen_settings";
     private static final String SMART_PIXELS = "smart_pixels";
     private static final String SETTINGS_DASHBOARD_STYLE = "settings_dashboard_style";
+    private static final String ALT_SETTINGS_LAYOUT = "alt_settings_layout";
+    private static final String USE_STOCK_LAYOUT = "use_stock_layout";
+    private static final String DISABLE_USERCARD = "disable_usercard";
 
     private Preference mShowCutoutForce;
     private Preference mSmartPixels;
     private SystemSettingListPreference mSettingsDashBoardStyle;
+    private SystemSettingSwitchPreference mAltSettingsLayout;
+    private SystemSettingSwitchPreference mUseStockLayout;
+    private SystemSettingSwitchPreference mDisableUserCard; 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -84,12 +92,27 @@ public class UserInterface extends SettingsPreferenceFragment implements OnPrefe
             
         mSettingsDashBoardStyle = (SystemSettingListPreference) findPreference(SETTINGS_DASHBOARD_STYLE);
         mSettingsDashBoardStyle.setOnPreferenceChangeListener(this);
+        mAltSettingsLayout = (SystemSettingSwitchPreference) findPreference(ALT_SETTINGS_LAYOUT);
+        mAltSettingsLayout.setOnPreferenceChangeListener(this);
+        mUseStockLayout = (SystemSettingSwitchPreference) findPreference(USE_STOCK_LAYOUT);
+        mUseStockLayout.setOnPreferenceChangeListener(this);
+        mDisableUserCard = (SystemSettingSwitchPreference) findPreference(DISABLE_USERCARD);
+        mDisableUserCard.setOnPreferenceChangeListener(this);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 	if (preference == mSettingsDashBoardStyle) {
+            Utils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mAltSettingsLayout) {
+            Utils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mUseStockLayout) {
+            Utils.showSettingsRestartDialog(getContext());
+            return true;
+        } else if (preference == mDisableUserCard) {
             Utils.showSettingsRestartDialog(getContext());
             return true;
         }

@@ -1097,4 +1097,7 @@
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
     
     <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
 </resources>

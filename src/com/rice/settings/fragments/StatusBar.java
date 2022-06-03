@@ -45,6 +45,7 @@ import com.rice.settings.fragments.statusbar.NetworkTrafficSettings;
 import com.rice.settings.preferences.SystemSettingSeekBarPreference;
 import com.rice.settings.utils.DeviceUtils;
 import com.rice.settings.utils.TelephonyUtils;
+import com.android.internal.util.crdroid.Utils;
 
 import lineageos.preference.LineageSystemSettingListPreference;
 import lineageos.providers.LineageSettings;
@@ -149,6 +150,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
                     Settings.System.USE_OLD_MOBILETYPE,
                     mConfigUseOldMobileType ? 1 : 0, UserHandle.USER_CURRENT) != 0;
             mOldMobileType.setChecked(showing);
+            mCombinedIcons.setOnPreferenceChangeListener(this);
         }
 
         int batterystyle = Settings.System.getIntForUser(getContentResolver(),
@@ -209,6 +211,9 @@ public class StatusBar extends SettingsPreferenceFragment implements
         } else if (preference == mSmartPulldown) {
             int value = Integer.parseInt((String) newValue);
             updateSmartPulldownSummary(value);
+            return true;
+	} else if (preference == mCombinedIcons) {
+            Utils.showSysUIRestartDialog(getContext());
             return true;
         }
         return false;

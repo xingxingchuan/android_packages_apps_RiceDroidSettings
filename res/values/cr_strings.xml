@@ -1114,4 +1114,8 @@
     <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
     <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
     <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 </resources>

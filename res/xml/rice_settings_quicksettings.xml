@@ -113,6 +113,13 @@
             android:defaultValue="true" />
 
         <com.rice.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:icon="@drawable/ic_traffic"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary"
+            android:defaultValue="false" />
+            
+        <com.rice.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_show_edit"
             android:icon="@drawable/ic_pencil"
             android:title="@string/qs_footer_edit_icon_title"

@@ -137,6 +137,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.NOTIFICATION_MATERIAL_DISMISS_BGSTYLE, 0, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.QS_TRANSPARENCY, 100, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.OMNI_QS_TILE_VERTICAL_LAYOUT, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.OMNI_QS_TILE_LABEL_HIDE, 0, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.OMNI_QS_LAYOUT_COLUMNS_LANDSCAPE, 4, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.OMNI_QS_LAYOUT_COLUMNS, 2, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,
                 LineageSettings.Secure.QS_SHOW_BRIGHTNESS_SLIDER, 1, UserHandle.USER_CURRENT);
         LineageSettings.Secure.putIntForUser(resolver,

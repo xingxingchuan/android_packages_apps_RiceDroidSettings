@@ -48,13 +48,6 @@
           android:title="@string/settings_home_style_title"
           android:summary="@string/settings_home_style_summary"
           android:defaultValue="false" />
-
-    <com.rice.settings.preferences.SystemSettingSwitchPreference
-          android:key="disable_usercard"
-          android:icon="@drawable/ic_user"
-          android:title="@string/disable_usercard_title"
-          android:summary="@string/disable_usercard_summary"
-          android:defaultValue="false" />
           
     <!-- Settings style -->
     <com.rice.settings.preferences.SystemSettingListPreference

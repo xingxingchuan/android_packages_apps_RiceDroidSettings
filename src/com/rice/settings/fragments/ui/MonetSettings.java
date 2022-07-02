@@ -53,24 +53,6 @@ public class MonetSettings extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.monet_engine);
     }
 
-    public static void reset(Context mContext) {
-        ContentResolver resolver = mContext.getContentResolver();
-        Settings.Secure.putIntForUser(resolver,
-                PREF_CUSTOM_COLOR, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                PREF_COLOR_OVERRIDE, 0xffffffff, UserHandle.USER_CURRENT);
-        Settings.Secure.putFloatForUser(resolver,
-                PREF_CHROMA_FACTOR, 100.0f, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                PREF_ACCURATE_SHADES, 1, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                PREF_LINEAR_LIGHTNESS, 0, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                PREF_WHITE_LUMINANCE, 425, UserHandle.USER_CURRENT);
-        Settings.Secure.putIntForUser(resolver,
-                Settings.Secure.SYSTEM_BLACK_THEME, 0, UserHandle.USER_CURRENT);
-    }
-
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.CRDROID_SETTINGS;

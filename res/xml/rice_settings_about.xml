@@ -16,10 +16,34 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/about_settings_title" >
 
+    <PreferenceScreen
+    	android:layout="@layout/rice_logo" />
+    
+    <PreferenceCategory
+         android:title="@string/what_is_rice" >
+
+    <Preference
+    	 android:summary="@string/what_is_rice_summary" />
+
+     </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/rice_terminology" >
+
+    <Preference
+    	 android:summary="@string/rice_terminology_summary" />
+    	 
+     </PreferenceCategory>
+
+    <PreferenceCategory
+         android:title="@string/rice_linkers" >
+         
     <!-- riceDroid Changelog -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_changelog"
         android:icon="@drawable/ic_changelog"
         android:title="@string/changelog_rice_title"
@@ -31,6 +55,7 @@
 
     <!-- riceDroid Translate -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_translate"
         android:icon="@drawable/ic_translate"
         android:title="@string/rice_translate_title"
@@ -38,6 +63,7 @@
 
     <!-- riceDroid Donate -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_donate"
         android:icon="@drawable/ic_donate"
         android:title="@string/donate_rice_title"
@@ -45,6 +71,7 @@
 
     <!-- riceDroid Source -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_source"
         android:icon="@drawable/ic_source"
         android:title="@string/rice_source_title"
@@ -52,6 +79,7 @@
 
     <!-- riceDroid Telegram Updates Channel -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_telegram_channel"
         android:icon="@drawable/ic_telegram_channel"
         android:title="@string/rice_telegram_channel_title"
@@ -59,6 +87,7 @@
 
     <!-- riceDroid OTA update -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="system_update_settings"
         android:title="@string/rice_update_title"
         android:summary="@string/rice_update_summary"
@@ -69,9 +98,12 @@
 
     <!-- riceDroid Drill -->
     <Preference
+    	settings:layout="@layout/arc_card_about"
         android:key="rice_drill"
         android:icon="@drawable/ic_drill"
         android:title="@string/drill_title"
         android:summary="@string/drill_summary"
         android:fragment="com.rice.settings.fragments.about.Drill" />
+    
+     </PreferenceCategory>
 </PreferenceScreen>

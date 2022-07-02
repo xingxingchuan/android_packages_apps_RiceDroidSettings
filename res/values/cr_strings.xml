@@ -17,7 +17,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="rice_settings_title" translatable="false">Customization</string>
+    <string name="rice_settings_title" translatable="false">Customizations</string>
     <string name="rice_settings_summary" translatable="false">Themes, Accent Color, font</string>
     <string name="reset_settings_title">Reset settings</string>
     <string name="reset_settings_message">This will reset most rice settings to their default values for the current user. Would you like to continue?</string>
@@ -63,6 +63,10 @@
     <string name="changelog_rice_title">Current changelog</string>
     <string name="changelog_rice_summary">View changes in the ROM installed</string>
     <string name="changelog_rice_error">Unable to load changelog</string>
+    <string name="what_is_rice">What is riceDroid?</string>
+    <string name="what_is_rice_summary">Ricedroid is an operating system based on lineage/crDroid, that aims to provide necessary &quot;ricing&quot; for android while being fast and stable.</string>
+    <string name="rice_terminology">Terminology</string>
+    <string name="rice_terminology_summary">The rice in the project name can be referred to &quot;rice&quot; (food) itself, but in a sense it is indeed the term &quot;ricing&quot; in linux.</string>
 
     <!-- About riceDroid -->
     <string name="about_rice">About riceDroid</string>
@@ -1096,6 +1100,7 @@
     <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
     
     <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure lockscreen shortcuts</string>
 
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
@@ -1138,4 +1143,28 @@
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Hide tile titles</string>
     <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    
+   <!-- rice dashboard -->
+    <string name="about_settings_title">About Us</string>
+    <string name="about_settings_summary">Information about riceDroid</string>
+    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_summary">Tweak hardware buttons</string>
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="lockscreen_settings_summary">Customize lockscreen interface</string>
+    <string name="misc_settings_title">Miscellaneous</string>
+    <string name="misc_settings_summary">Misc uncategorized stuffs</string>
+    <string name="nav_settings_title">Navigation</string>
+    <string name="nav_settings_summary">Customize navigation behavior</string>
+    <string name="notif_settings_title">Notification</string>
+    <string name="notif_settings_summary">Control notifications layout, patterns and more</string>
+    <string name="qs_settings_title">QuickSettings</string>
+    <string name="qs_settings_summary">Modify QS panel columns, icons and more</string>
+    <string name="sound_settings_title">Sound</string>
+    <string name="sound_settings_summary">Lockscreen audio pulse, volume step and more</string>
+    <string name="sb_settings_title">StatusBar</string>
+    <string name="sb_settings_summary">Customize statusbar icons, layout etc</string>
+    <string name="ui_settings_title">User Interface</string>
+    <string name="ui_settings_summary">Customize UI colors, icons, fonts and more</string>
+    <string name="rice_illustration_summary">Welcome to our kitchen!</string>
+    <string name="rice_linkers">Links and fun stuff</string>
 </resources>

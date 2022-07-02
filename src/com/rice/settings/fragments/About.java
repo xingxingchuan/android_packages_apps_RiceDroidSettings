@@ -75,7 +75,7 @@ public class About extends SettingsPreferenceFragment {
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference == mDonate) {
-            launchUrl("https://www.youtube.com/watch?v=7U6pANXrJE4");
+            launchUrl("https://www.youtube.com/watch?v=Bgqk6t9Be1Q");
         } else if (preference == mSourceUrl) {
             launchUrl("https://github.com/RiceDroid");
         } else if (preference == mTelegramUrl) {
@@ -90,7 +90,7 @@ public class About extends SettingsPreferenceFragment {
         } else if (preference == mTranslate) {
             launchUrl("https://crdroid.net/translations.php");
         } else if (preference == mWebsite) {
-            launchUrl("http://RiceDroid.github.io");
+            launchUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         } else if (preference == mTelegramChannelUrl) {
             launchUrl("https://t.me/riceDroidNews");
         } else if (preference == mSponsor) {

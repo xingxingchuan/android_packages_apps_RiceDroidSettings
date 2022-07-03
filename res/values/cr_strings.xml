@@ -995,8 +995,8 @@
     <string name="fp_wake_unlock_summary">Listen for fingerprint when screen is off</string>
 
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="vivid_theme_title">Vivid monet shades</string>
+    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
 
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Clear all notification button</string>

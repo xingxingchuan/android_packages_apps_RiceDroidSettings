@@ -58,4 +58,9 @@
         android:title="@string/monet_engine_linear_lightness_title"
         android:defaultValue="false" />
 
+    <com.rice.settings.preferences.SecureSettingSwitchPreference
+        android:key="vivid_colors"
+        android:title="@string/vivid_theme_title"
+        android:summary="@string/vivid_theme_summary" />
+
 </PreferenceScreen>

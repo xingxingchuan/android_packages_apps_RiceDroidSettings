@@ -224,11 +224,5 @@
             settings:interval="1"
             android:defaultValue="4" />
 
-    <com.android.settingslib.widget.FooterPreference
-        android:key="qs_columns_footer"
-        android:title="@string/qs_columns_footer_title"
-        android:selectable="false"
-        settings:searchable="false"/>
-
     </PreferenceCategory>
 </PreferenceScreen>

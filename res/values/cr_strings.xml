@@ -1138,7 +1138,6 @@
     <string name="qs_rows_landscape_title">Tile rows on landscape</string>
     <string name="qs_columns_portrait_title">Tile columns on portrait</string>
     <string name="qs_columns_landscape_title">Tile columns on landscape</string>
-    <string name="qs_columns_footer_title">1. For qs columns changes to take effect properly, rotate the device according to the qs columns you want to change, for e.g. when changing landscape columnt count, user must rotate the device first to landscape before applying the desired configuration.\n \n 2. We recommend changing portrait column counts first while on portrait mode and rotate your device to landscape and change landscape column qs counts. \n \n 3. In case of notification bug or weird qs expanding animations, user must do step 2 to initialize default presets</string>
     
     <!-- QS tiles title visibility -->
     <string name="qs_tile_title_visibility_title">Hide tile titles</string>

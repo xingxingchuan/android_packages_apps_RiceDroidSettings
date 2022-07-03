@@ -32,15 +32,6 @@
             android:targetClass="io.chaldeaprjkt.gamespace.settings.SettingsActivity" />
     </Preference>
 
-    <!-- Hidden apps -->
-    <Preference
-        android:key="hidden_apps"
-        android:title="@string/hidden_apps_title"
-        android:icon="@drawable/ic_key"
-        android:summary="@string/hidden_apps_summary"
-        android:persistent="false"
-        android:fragment="com.rice.settings.fragments.HiddenAppSettingsFragment" />
-
     <!-- Unlock FPS for specific games -->
     <SwitchPreference
         android:key="use_games_spoof"

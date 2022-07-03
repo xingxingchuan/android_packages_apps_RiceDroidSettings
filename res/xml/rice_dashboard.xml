@@ -44,13 +44,13 @@
             android:summary="@string/buttons_settings_summary"
             android:fragment="com.rice.settings.fragments.Buttons" />
             
-        <!-- LockScreen -->
+        <!-- LockScreenSettings -->
         <Preference
             settings:layout="@layout/arc_card_about"
             android:icon="@drawable/ic_settings_lockscreens"
             android:title="@string/lockscreen_settings_title"
             android:summary="@string/lockscreen_settings_summary"
-            android:fragment="com.rice.settings.fragments.LockScreen" />
+            android:fragment="com.rice.settings.fragments.LockScreenSettings" />
             
         <!-- Miscellaneous -->
         <Preference

@@ -24,6 +24,12 @@
         android:key="lockscreen_interface_category"
         android:title="@string/lockscreen_interface_category">
 
+    <Preference
+        android:key="always_on_display_schedule"
+        android:icon="@drawable/ic_settings_display"
+        android:title="@string/always_on_display_schedule_title"
+        android:fragment="com.rice.settings.fragments.AODSchedule" />
+        
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:icon="@drawable/ic_movie"

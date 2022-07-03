@@ -47,10 +47,10 @@ import java.util.List;
 import lineageos.providers.LineageSettings;
 
 @SearchIndexable
-public class LockScreen extends SettingsPreferenceFragment
+public class LockScreenSettings extends SettingsPreferenceFragment
             implements Preference.OnPreferenceChangeListener  {
 
-    public static final String TAG = "LockScreen";
+    public static final String TAG = "LockScreenSettings";
 
     private static final String LOCKSCREEN_INTERFACE_CATEGORY = "lockscreen_interface_category";
     private static final String LOCKSCREEN_GESTURES_CATEGORY = "lockscreen_gestures_category";
@@ -59,7 +59,15 @@ public class LockScreen extends SettingsPreferenceFragment
     private static final String KEY_FP_ERROR_VIBRATE = "fp_error_vibrate";
     private static final String KEY_FP_WAKE_UNLOCK = "fp_wake_unlock";
     private static final String KEY_RIPPLE_EFFECT = "enable_ripple_effect";
-
+    private static final String AOD_SCHEDULE_KEY = "always_on_display_schedule";
+    
+    static final int MODE_DISABLED = 0;
+    static final int MODE_NIGHT = 1;
+    static final int MODE_TIME = 2;
+    static final int MODE_MIXED_SUNSET = 3;
+    static final int MODE_MIXED_SUNRISE = 4;
+    
+    Preference mAODPref;
     private Preference mUdfpsSettings;
     private Preference mFingerprintVib;
     private Preference mFingerprintVibErr;
@@ -84,6 +92,9 @@ public class LockScreen extends SettingsPreferenceFragment
         mFingerprintWakeUnlock = (SwitchPreference) findPreference(KEY_FP_WAKE_UNLOCK);
         mRippleEffect = (Preference) findPreference(KEY_RIPPLE_EFFECT);
 
+        mAODPref = findPreference(AOD_SCHEDULE_KEY);
+        updateAlwaysOnSummary();
+
         if (mFingerprintManager == null || !mFingerprintManager.isHardwareDetected()) {
             interfaceCategory.removePreference(mUdfpsSettings);
             gestCategory.removePreference(mFingerprintVib);
@@ -106,6 +117,36 @@ public class LockScreen extends SettingsPreferenceFragment
             }
         }
     }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        updateAlwaysOnSummary();
+    }
+
+    private void updateAlwaysOnSummary() {
+        if (mAODPref == null) return;
+        int mode = Settings.Secure.getIntForUser(getActivity().getContentResolver(),
+                Settings.Secure.DOZE_ALWAYS_ON_AUTO_MODE, 0, UserHandle.USER_CURRENT);
+        switch (mode) {
+            default:
+            case MODE_DISABLED:
+                mAODPref.setSummary(R.string.disabled);
+                break;
+            case MODE_NIGHT:
+                mAODPref.setSummary(R.string.night_display_auto_mode_twilight);
+                break;
+            case 2:
+                mAODPref.setSummary(R.string.night_display_auto_mode_custom);
+                break;
+            case MODE_MIXED_SUNSET:
+                mAODPref.setSummary(R.string.always_on_display_schedule_mixed_sunset);
+                break;
+            case MODE_MIXED_SUNRISE:
+                mAODPref.setSummary(R.string.always_on_display_schedule_mixed_sunrise);
+                break;
+        }
+   }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {

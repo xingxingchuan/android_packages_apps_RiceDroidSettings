@@ -48,9 +48,9 @@
         android:icon="@drawable/ic_changelog"
         android:title="@string/changelog_rice_title"
         android:summary="@string/changelog_rice_summary">
-        <intent android:action="android.intent.action.MAIN"
-             android:targetPackage="com.android.settings"
-             android:targetClass="com.rice.settings.fragments.about.ChangelogActivity"/>
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://raw.githubusercontent.com/RiceDroid/android_vendor_rice/twelve/prebuilt/common/etc/Changelog.txt" />
     </Preference>
 
     <!-- riceDroid Translate -->
@@ -102,8 +102,11 @@
         android:key="rice_drill"
         android:icon="@drawable/ic_drill"
         android:title="@string/drill_title"
-        android:summary="@string/drill_summary"
-        android:fragment="com.rice.settings.fragments.about.Drill" />
+        android:summary="@string/drill_summary">
+            <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://www.xda-developers.com/how-to-take-logs-android/" />
+    </Preference>
     
      </PreferenceCategory>
 </PreferenceScreen>

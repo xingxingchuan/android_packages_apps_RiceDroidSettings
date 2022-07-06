@@ -44,18 +44,14 @@ public class About extends SettingsPreferenceFragment {
     private String KEY_RICE_TELEGRAM = "rice_telegram";
     private String KEY_RICE_SHARE = "rice_share";
     private String KEY_RICE_TRANSLATE = "rice_translate";
-    private String KEY_RICE_WEBSITE = "rice_website";
     private String KEY_RICE_TELEGRAM_CHANNEL = "rice_telegram_channel";
-    private String KEY_RICE_SPONSOR = "rice_sponsor";
 
     private Preference mDonate;
     private Preference mSourceUrl;
     private Preference mTelegramUrl;
     private Preference mShare;
     private Preference mTranslate;
-    private Preference mWebsite;
     private Preference mTelegramChannelUrl;
-    private Preference mSponsor;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -67,9 +63,7 @@ public class About extends SettingsPreferenceFragment {
         mTelegramUrl = findPreference(KEY_RICE_TELEGRAM);
         mShare = findPreference(KEY_RICE_SHARE);
         mTranslate = findPreference(KEY_RICE_TRANSLATE);
-        mWebsite = findPreference(KEY_RICE_WEBSITE);
         mTelegramChannelUrl = findPreference(KEY_RICE_TELEGRAM_CHANNEL);
-        mSponsor = findPreference(KEY_RICE_SPONSOR);
     }
 
     @Override
@@ -89,12 +83,8 @@ public class About extends SettingsPreferenceFragment {
             startActivity(Intent.createChooser(intent, getActivity().getString(R.string.share_chooser_title)));
         } else if (preference == mTranslate) {
             launchUrl("https://crdroid.net/translations.php");
-        } else if (preference == mWebsite) {
-            launchUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
         } else if (preference == mTelegramChannelUrl) {
             launchUrl("https://t.me/riceDroidNews");
-        } else if (preference == mSponsor) {
-            launchUrl("https://www.scopehosts.com");
         }
 
         return super.onPreferenceTreeClick(preference);

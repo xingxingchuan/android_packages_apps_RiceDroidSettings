@@ -1052,6 +1052,8 @@
     <string name="status_bar_logo_position_left">Left</string>
     <string name="status_bar_logo_style_title">Style</string>
     <string name="status_bar_logo_style_rice">riceDroid</string>
+    <string name="status_bar_logo_style_rice_icon">chowking chaofan</string>
+    <string name="status_bar_logo_style_peach">peachy momo</string>
     <string name="status_bar_logo_style_android">Android</string>
     <string name="status_bar_logo_style_apple">Apple</string>
     <string name="status_bar_logo_style_ios">iOS</string>

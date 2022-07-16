@@ -193,7 +193,7 @@ public class FontsPicker extends SettingsPreferenceFragment {
             Resources res = pkg.equals("android") ? Resources.getSystem()
                     : pm.getResourcesForApplication(pkg);
             return Typeface.create(res.getString(
-                    res.getIdentifier("config_bodyFontFamily",
+                    res.getIdentifier("config_headlineFontFamily",
                     "string", pkg)), Typeface.NORMAL);
         }
         catch (PackageManager.NameNotFoundException e) {

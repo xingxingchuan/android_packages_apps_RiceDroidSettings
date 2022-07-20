@@ -128,14 +128,6 @@
         android:title="@string/theme_customization_signal_icon_title"
         android:summary="@string/theme_customization_signal_icon_summary"
         android:fragment="com.rice.settings.fragments.ui.SignalIcons"/>
-            
-    <!-- Wifi icon style -->
-    <Preference
-        android:key="android.theme.customization.wifi_icon"
-        android:icon="@drawable/ic_wifi"
-        android:title="@string/theme_customization_wifi_icon_title"
-        android:summary="@string/theme_customization_wifi_icon_summary"
-        android:fragment="com.rice.settings.fragments.ui.WifiIcons"/>
 
     <!-- Adaptive icon pack -->
     <Preference
@@ -144,5 +136,13 @@
         android:title="@string/theme_customization_icon_shape_title"
         android:summary="@string/theme_customization_icon_shape_summary"
         android:fragment="com.rice.settings.fragments.ui.IconShapes"/>
+
+    <!-- Wifi icon style -->
+    <Preference
+        android:key="android.theme.customization.wifi_icon"
+        android:icon="@drawable/ic_wifi"
+        android:title="@string/theme_customization_wifi_icon_title"
+        android:summary="@string/theme_customization_wifi_icon_summary"
+        android:fragment="com.rice.settings.fragments.ui.WifiIcons"/>
 
 </PreferenceScreen>

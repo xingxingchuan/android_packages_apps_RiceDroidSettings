@@ -172,6 +172,10 @@
     <string name="lockscreen_battery_info_title">Battery info</string>
     <string name="lockscreen_battery_info_summary">Display battery info when charging</string>
 
+    <!-- Lockscreen clock color -->
+    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    
     <!-- Button settings -->
     <string name="additional_buttons_title">Additional buttons</string>
     <string name="hardware_keys_power_key_title">Power button</string>

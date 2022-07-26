@@ -53,6 +53,13 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
+        <com.rice.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_secondary_color_clock"
+            android:icon="@drawable/ic_lock_clock"
+            android:title="@string/lockscreen_clock_color_title"
+            android:summary="@string/lockscreen_clock_color_summary"
+            android:defaultValue="false" />
+
     <Preference
         android:key="lockscreen_shortcuts"
         android:icon="@drawable/ic_lockscreen_shortcuts"
@@ -69,7 +76,6 @@
             android:title="@string/udfps_settings_title"
             android:summary="@string/udfps_settings_summary"
             android:fragment="com.rice.settings.fragments.lockscreen.UdfpsSettings" />
-
     </PreferenceCategory>
     
     <PreferenceCategory

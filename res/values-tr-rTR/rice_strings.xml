@@ -16,8 +16,6 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="rice_settings_title">riceDroid Ayarları</string>
-    <string name="rice_settings_summary">Çeşitli özelleştirmeler</string>
     <string name="reset_settings_title">Ayarları sıfırla</string>
     <string name="reset_settings_message">Bu mevcut kullanıcı için çoğu rice ayarlarını varsayılan değerlerine sıfırlar. Devam etmek ister misin?</string>
     <!-- Personalization Categories -->
@@ -52,10 +50,16 @@
     <string name="choose_app">Uygulama seç</string>
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
+    <string name="default_string">Default</string>
+    <string name="disabled">Disabled</string>
     <!-- Changelog -->
     <string name="changelog_rice_title">Mevcut değişiklikler</string>
     <string name="changelog_rice_summary">Yüklü ROM\'daki değişiklikleri görüntüleyin</string>
     <string name="changelog_rice_error">Değişiklikler yüklenemiyor</string>
+    <string name="what_is_rice">What is riceDroid?</string>
+    <string name="what_is_rice_summary">Ricedroid is an operating system based on lineage/crDroid, that aims to provide necessary &quot;ricing&quot; for android while being fast and stable.</string>
+    <string name="rice_terminology">Terminology</string>
+    <string name="rice_terminology_summary">The rice in the project name can be referred to &quot;rice&quot; (food) itself, but in a sense it is indeed the term &quot;ricing&quot; in linux.</string>
     <!-- About riceDroid -->
     <string name="about_rice">riceDroid hakkında</string>
     <string name="about_device_name">Cihaz</string>
@@ -135,6 +139,9 @@
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Pil bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken pil bilgilerini görüntüle</string>
+    <!-- Lockscreen clock color -->
+    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
     <!-- Button settings -->
     <string name="additional_buttons_title">Ek tuşlar</string>
     <string name="hardware_keys_power_key_title">Güç tuşu</string>
@@ -555,6 +562,12 @@
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
     <string name="qs_show_auto_brightness_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Renkli simgeler</string>
     <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
@@ -652,9 +665,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Oyun alanı</string>
     <string name="gaming_mode_summary">Sürükleyici oyun deneyimi için ekstra özellikler</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Küçük saat</string>
-    <string name="lockscreen_small_clock_summary">Bildirimler olmasa bile küçük saati kilit ekranında zorla</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Piksel animasyonu</string>
     <string name="pixel_navbar_anim_summary">2 tuşlu / 3 tuşlu gezinme çubuğu için piksel stili animasyonu etkinleştir</string>
@@ -855,8 +865,8 @@
     <string name="fp_wake_unlock_title">Parmak izi ile uyandırma ve kilit açma</string>
     <string name="fp_wake_unlock_summary">Ekran kapalıyken parmak izini dinleyin</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Siyah temayı kullan</string>
-    <string name="system_black_theme_summary">Siyah arka plan rengine zorla</string>
+    <string name="vivid_theme_title">Vivid monet shades</string>
+    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
     <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
@@ -874,4 +884,155 @@
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Pil sıcaklığı</string>
+    <!-- Media artwork -->
+    <string name="media_category">Media notification</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="artwork_media_background_fade_filter_title">Fade amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+    <string name="just_kidding">Just kidding! providing logs helps us look like professional programmers err i mean trace the bugs that users reports.</string>
+    <string name="bug_report_drill">Bug Reporting Procedure</string>
+    <!-- Statusbar logo -->
+    <string name="status_bar_logo_category_title">Logo</string>
+    <string name="status_bar_logo_title">Logo</string>
+    <string name="status_bar_logo_summary">Enable to display logo in the status bar</string>
+    <string name="status_bar_logo_color_title">Color</string>
+    <string name="status_bar_logo_color_accent_title">Use accent Color</string>
+    <string name="status_bar_logo_position_title">Position</string>
+    <string name="status_bar_logo_position_summary">Choose which side to display the logo on, left or right</string>
+    <string name="status_bar_logo_position_right">Right</string>
+    <string name="status_bar_logo_position_left">Left</string>
+    <string name="status_bar_logo_style_title">Style</string>
+    <string name="status_bar_logo_style_rice">riceDroid</string>
+    <string name="status_bar_logo_style_rice_icon">chowking chaofan</string>
+    <string name="status_bar_logo_style_peach">peachy momo</string>
+    <string name="status_bar_logo_style_android">Android</string>
+    <string name="status_bar_logo_style_apple">Apple</string>
+    <string name="status_bar_logo_style_ios">iOS</string>
+    <string name="status_bar_logo_style_emoticon">Emoticon</string>
+    <string name="status_bar_logo_style_emoticon_cool">Emoticon cool</string>
+    <string name="status_bar_logo_style_emoticon_dead">Emoticon dead</string>
+    <string name="status_bar_logo_style_emoticon_devil">Emoticon devil</string>
+    <string name="status_bar_logo_style_emoticon_happy">Emoticon happy</string>
+    <string name="status_bar_logo_style_emoticon_neutral">Emoticon neutral</string>
+    <string name="status_bar_logo_style_emoticon_poop">Emoticon poop</string>
+    <string name="status_bar_logo_style_emoticon_sad">Emoticon sad</string>
+    <string name="status_bar_logo_style_emoticon_tongue">Emoticon tongue</string>
+    <string name="status_bar_logo_style_blackberry">Blackberry</string>
+    <string name="status_bar_logo_style_cake">Cake</string>
+    <string name="status_bar_logo_style_blogger">Blogger</string>
+    <string name="status_bar_logo_style_biohazard">Biohazard</string>
+    <string name="status_bar_logo_style_linux">Linux</string>
+    <string name="status_bar_logo_style_yin_yang">Yin-Yang</string>
+    <string name="status_bar_logo_style_windows">Windows</string>
+    <string name="status_bar_logo_style_robot">Robot</string>
+    <string name="status_bar_logo_style_ninja">Ninja</string>
+    <string name="status_bar_logo_style_heart">Heart</string>
+    <string name="status_bar_logo_style_flower">Flower</string>
+    <string name="status_bar_logo_style_ghost">Ghost</string>
+    <string name="status_bar_logo_style_google">Google</string>
+    <string name="status_bar_logo_style_human_male">Man</string>
+    <string name="status_bar_logo_style_human_female">Woman</string>
+    <string name="status_bar_logo_style_human_male_female">Man &amp; woman</string>
+    <string name="status_bar_logo_style_gender_male">Male</string>
+    <string name="status_bar_logo_style_gender_female">Female</string>
+    <string name="status_bar_logo_style_gender_male_female">Male &amp; female</string>
+    <string name="status_bar_logo_style_guitar_electric">Electric guitar</string>
+    <!-- Custom settings dashboard style -->
+    <string name="settings_dashboard_style_title">Settings Styles</string>
+    <string name="settings_dashboard_style_oos">RiceUI Gapps</string>
+    <string name="settings_dashboard_style_oos2">RiceUI MicroG</string>
+    <string name="settings_dashboard_style_wave">MaterialUI Gapps</string>
+    <string name="settings_dashboard_style_wave2">MaterialUI MicroG</string>
+    <string name="settings_dashboard_style_rui">PalletteUI Gapps</string>
+    <string name="settings_dashboard_style_rui2">PalletteUI MicroG</string>
+    <string name="settings_dashboard_style_arc">ArcUI Gapps</string>
+    <string name="settings_dashboard_style_arc2">ArcUI MicroG</string>
+    <string name="settings_base_style_title">Settings background style</string>
+    <string name="settings_base_style_summary">Use dual tone background for settings</string>
+    <string name="settings_home_style_title">Settings homepage style</string>
+    <string name="settings_home_style_summary">Use AOSP settings homepage style</string>
+    <!-- Udfps Haptic Feedback -->
+    <string name="udfps_haptic_feedback_title">UDFPS haptic feedback</string>
+    <string name="udfps_haptic_feedback_summary">Vibrate when touching UDFPS icon</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_summary">Applications that should be hidden from launcher. Requires a launcher restart for changes to take effect</string>
+    <string name="lockscreen_shortcuts">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Configure lockscreen shortcuts</string>
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
+    <!-- IME button space -->
+    <string name="navigation_bar_ime_space_title">IME button space</string>
+    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_a">Landscape R Style A</string>
+    <string name="status_bar_battery_style_icon_landscape_style_a">Landscape L Style A</string>
+    <string name="status_bar_battery_style_icon_rlandscape_style_b">Landscape R Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_style_b">Landscape L Style B</string>
+    <string name="status_bar_battery_style_icon_landscape_pill">Portrait Mx</string>
+    <string name="status_bar_battery_style_icon_landscape_line">Landscape Lorn</string>
+    <string name="status_bar_battery_style_icon_landscape_musku">Portrait IOS</string>
+    <string name="status_bar_battery_style_icon_landscape_signal">Landscape Airoo</string>
+    <string name="status_bar_battery_style_icon_landscape_buddy">Landscape Capsule</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
+    <!-- QS tiles layout direction: vertical or horizontal -->
+    <string name="qs_tile_layout_category_title">Tile layout</string>
+    <string name="qs_tile_layout_title">Vertical layout</string>
+    <string name="qs_tile_layout_summary">Enable for vertical layout. Default is horizontal</string>
+    <!-- QS rows and columns -->
+    <string name="qs_layout_category_title">QS Layout</string>
+    <string name="qs_rows_portrait_title">Tile rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tile rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tile columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tile columns on landscape</string>
+    <!-- QS tiles title visibility -->
+    <string name="qs_tile_title_visibility_title">Hide tile titles</string>
+    <string name="qs_tile_title_visibility_summary">Toggle to hide tile titles</string>
+    <!-- rice dashboard -->
+    <string name="about_settings_title">About Us</string>
+    <string name="about_settings_summary">Information about riceDroid</string>
+    <string name="buttons_settings_title">Buttons</string>
+    <string name="buttons_settings_summary">Tweak hardware buttons</string>
+    <string name="lockscreen_settings_title">Lockscreen</string>
+    <string name="lockscreen_settings_summary">Customize lockscreen interface</string>
+    <string name="misc_settings_title">Miscellaneous</string>
+    <string name="misc_settings_summary">Misc uncategorized stuffs</string>
+    <string name="nav_settings_title">Navigation</string>
+    <string name="nav_settings_summary">Customize navigation behavior</string>
+    <string name="notif_settings_title">Notification</string>
+    <string name="notif_settings_summary">Control notifications layout, patterns and more</string>
+    <string name="qs_settings_title">QuickSettings</string>
+    <string name="qs_settings_summary">Modify QS panel columns, icons and more</string>
+    <string name="sound_settings_title">Sound</string>
+    <string name="sound_settings_summary">Lockscreen audio pulse, volume step and more</string>
+    <string name="sb_settings_title">StatusBar</string>
+    <string name="sb_settings_summary">Customize statusbar icons, layout etc</string>
+    <string name="ui_settings_title">User Interface</string>
+    <string name="ui_settings_summary">Customize UI colors, icons, fonts and more</string>
+    <string name="rice_illustration_summary">Welcome to our kitchen!</string>
+    <string name="rice_linkers">Links and fun stuff</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
 </resources>

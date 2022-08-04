@@ -94,6 +94,14 @@
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"/>
 
+        <com.rice.settings.preferences.SystemSettingListPreference
+            android:key="qs_system_info"
+            android:icon="@drawable/ic_memory"
+            android:title="@string/qs_system_info_title"
+            android:entries="@array/qs_system_info_entries"
+            android:entryValues="@array/qs_system_info_values"
+            android:defaultValue="0" />
+
         <com.rice.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:icon="@drawable/ic_color_bucket"

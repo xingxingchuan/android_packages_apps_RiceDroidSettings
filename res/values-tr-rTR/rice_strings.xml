@@ -50,16 +50,16 @@
     <string name="choose_app">Uygulama seç</string>
     <string name="enable">Etkinleştir</string>
     <string name="disable">Devre dışı bırak</string>
-    <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
+    <string name="default_string">Varsayılan</string>
+    <string name="disabled">Devre dışı</string>
     <!-- Changelog -->
     <string name="changelog_rice_title">Mevcut değişiklikler</string>
     <string name="changelog_rice_summary">Yüklü ROM\'daki değişiklikleri görüntüleyin</string>
     <string name="changelog_rice_error">Değişiklikler yüklenemiyor</string>
-    <string name="what_is_rice">What is riceDroid?</string>
-    <string name="what_is_rice_summary">Ricedroid is an operating system based on lineage/crDroid, that aims to provide necessary &quot;ricing&quot; for android while being fast and stable.</string>
-    <string name="rice_terminology">Terminology</string>
-    <string name="rice_terminology_summary">The rice in the project name can be referred to &quot;rice&quot; (food) itself, but in a sense it is indeed the term &quot;ricing&quot; in linux.</string>
+    <string name="what_is_rice">riceDroid\'i nedir?</string>
+    <string name="what_is_rice_summary">Ricedroid lineage/crDroid tabanlı hız ve stabilite ağırlıklı bir işletim sistemidir.</string>
+    <string name="rice_terminology">Terminoloji</string>
+    <string name="rice_terminology_summary">Proje ismindeki rice (yiyecek) pirinç olarak algılanabilir, fakat asıl olarak linux terimi karışım anlamına gelmektedir. </string>
     <!-- About riceDroid -->
     <string name="about_rice">riceDroid hakkında</string>
     <string name="about_device_name">Cihaz</string>
@@ -140,8 +140,8 @@
     <string name="lockscreen_battery_info_title">Pil bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken pil bilgilerini görüntüle</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">Kilit ekranı saati rengi</string>
+    <string name="lockscreen_clock_color_summary">Kilit ekranı saati rengi için ikinci renk kullan, devre dışı bırakılırsa vurgu rengi kullanılır</string>
     <!-- Button settings -->
     <string name="additional_buttons_title">Ek tuşlar</string>
     <string name="hardware_keys_power_key_title">Güç tuşu</string>
@@ -563,11 +563,11 @@
     <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
     <string name="qs_show_auto_brightness_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
+    <string name="always_on_display_schedule_sunset">Gün batımı</string>
+    <string name="always_on_display_schedule_sunrise">Gün Doğumu</string>
+    <string name="always_on_display_schedule_mixed_sunset">Gün batımından bir zamana kadar açılıyor</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bir zamandan gün doğumuna kadar açılıyor</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">Renkli simgeler</string>
     <string name="statusbar_colored_icons_summary">Durum çubuğundaki bildirim simgeleri için uygun uygulama simgelerini kullanın</string>
@@ -865,8 +865,8 @@
     <string name="fp_wake_unlock_title">Parmak izi ile uyandırma ve kilit açma</string>
     <string name="fp_wake_unlock_summary">Ekran kapalıyken parmak izini dinleyin</string>
     <!-- Black theme -->
-    <string name="vivid_theme_title">Vivid monet shades</string>
-    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
+    <string name="vivid_theme_title">Canlı monet renk tonları</string>
+    <string name="vivid_theme_summary">Daha koyu canlı monet tonları</string>
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
     <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
@@ -885,7 +885,7 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">Pil sıcaklığı</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
+    <string name="media_category">Medya bildirimi</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
     <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
@@ -937,11 +937,11 @@
     <string name="status_bar_logo_style_human_female">Woman</string>
     <string name="status_bar_logo_style_human_male_female">Man &amp; woman</string>
     <string name="status_bar_logo_style_gender_male">Male</string>
-    <string name="status_bar_logo_style_gender_female">Female</string>
-    <string name="status_bar_logo_style_gender_male_female">Male &amp; female</string>
-    <string name="status_bar_logo_style_guitar_electric">Electric guitar</string>
+    <string name="status_bar_logo_style_gender_female">Kadın</string>
+    <string name="status_bar_logo_style_gender_male_female">Erkek &amp; kadın</string>
+    <string name="status_bar_logo_style_guitar_electric">Elektrogitar</string>
     <!-- Custom settings dashboard style -->
-    <string name="settings_dashboard_style_title">Settings Styles</string>
+    <string name="settings_dashboard_style_title">Ayarlar Stilleri</string>
     <string name="settings_dashboard_style_oos">RiceUI Gapps</string>
     <string name="settings_dashboard_style_oos2">RiceUI MicroG</string>
     <string name="settings_dashboard_style_wave">MaterialUI Gapps</string>

@@ -1207,4 +1207,9 @@
     <string name="qs_system_info_battery_temp">Battery temperature</string>
     <string name="qs_system_info_gpu_clock">GPU frequency</string>
     <string name="qs_system_info_gpu_busy">GPU utilization</string>
+
+    <!-- Status bar padding -->
+    <string name="statusbar_padding">Status bar padding</string>
+    <string name="statusbar_left_padding">Left padding</string>
+    <string name="statusbar_right_padding">Right padding</string>
 </resources>

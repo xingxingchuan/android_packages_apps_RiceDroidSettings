@@ -102,6 +102,12 @@
             android:entryValues="@array/qs_system_info_values"
             android:defaultValue="0" />
 
+        <com.rice.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_style"
+            android:icon="@drawable/ic_qs_tile_animation_interpolator"
+            android:title="@string/qs_tile_style_title"
+            android:summary="@string/qs_tile_style_summary"/>
+
         <com.rice.settings.preferences.SystemSettingSeekBarPreference
             android:key="qs_transparency"
             android:icon="@drawable/ic_color_bucket"

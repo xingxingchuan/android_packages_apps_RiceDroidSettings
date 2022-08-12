@@ -1212,4 +1212,8 @@
     <string name="statusbar_padding">Status bar padding</string>
     <string name="statusbar_left_padding">Left padding</string>
     <string name="statusbar_right_padding">Right padding</string>
+    
+    <!-- QS Tile style -->
+    <string name="qs_tile_style_title">QS Tile style</string>
+    <string name="qs_tile_style_summary">Change quicksettings tile design</string>
 </resources>

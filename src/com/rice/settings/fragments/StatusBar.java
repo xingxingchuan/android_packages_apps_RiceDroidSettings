@@ -42,6 +42,7 @@ import com.android.settingslib.search.SearchIndexable;
 import com.rice.settings.fragments.statusbar.BatteryBar;
 import com.rice.settings.fragments.statusbar.Clock;
 import com.rice.settings.fragments.statusbar.NetworkTrafficSettings;
+import com.rice.settings.preferences.CustomSeekBarPreference;
 import com.rice.settings.preferences.SystemSettingSeekBarPreference;
 import com.rice.settings.utils.DeviceUtils;
 import com.rice.settings.utils.TelephonyUtils;
@@ -72,6 +73,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
+    private static final String KEY_STATUS_BAR_CLOCK_SIZE  = "status_bar_clock_size";
 
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
@@ -96,6 +98,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private SwitchPreference mCombinedIcons;
     private SwitchPreference mOldMobileType;
     private SwitchPreference mBatteryTextCharging;
+    private CustomSeekBarPreference mClockSize;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -184,6 +187,12 @@ public class StatusBar extends SettingsPreferenceFragment implements
             mQuickPulldown.setEntries(R.array.status_bar_quick_qs_pulldown_entries_rtl);
             mQuickPulldown.setEntryValues(R.array.status_bar_quick_qs_pulldown_values_rtl);
         }
+
+        mClockSize = (CustomSeekBarPreference) findPreference(KEY_STATUS_BAR_CLOCK_SIZE);
+        int clockSize = Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.STATUS_BAR_CLOCK_SIZE, 14);
+        mClockSize.setValue(clockSize / 1);
+        mClockSize.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -214,6 +223,11 @@ public class StatusBar extends SettingsPreferenceFragment implements
             return true;
 	} else if (preference == mCombinedIcons) {
             Utils.showSysUIRestartDialog(getContext());
+            return true;
+        } else if (preference == mClockSize) {
+            int width = ((Integer)newValue).intValue();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_CLOCK_SIZE, width);
             return true;
         }
         return false;

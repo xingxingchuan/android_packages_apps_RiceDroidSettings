@@ -74,6 +74,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
     private static final String KEY_STATUS_BAR_CLOCK_SIZE  = "status_bar_clock_size";
+    private static final String PREF_CLOCK_BG = "statusbar_clock_chip";
 
     private static final int PULLDOWN_DIR_NONE = 0;
     private static final int PULLDOWN_DIR_RIGHT = 1;
@@ -99,6 +100,7 @@ public class StatusBar extends SettingsPreferenceFragment implements
     private SwitchPreference mOldMobileType;
     private SwitchPreference mBatteryTextCharging;
     private CustomSeekBarPreference mClockSize;
+    private SwitchPreference mStatusBarClockBG;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -193,6 +195,11 @@ public class StatusBar extends SettingsPreferenceFragment implements
                 Settings.System.STATUS_BAR_CLOCK_SIZE, 14);
         mClockSize.setValue(clockSize / 1);
         mClockSize.setOnPreferenceChangeListener(this);
+
+        mStatusBarClockBG = (SwitchPreference) findPreference(PREF_CLOCK_BG);
+        mStatusBarClockBG.setChecked((Settings.System.getInt(getActivity()
+                .getContentResolver(), Settings.System.STATUSBAR_CLOCK_CHIP, 1) == 1));
+        mStatusBarClockBG.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -228,6 +235,11 @@ public class StatusBar extends SettingsPreferenceFragment implements
             int width = ((Integer)newValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.STATUS_BAR_CLOCK_SIZE, width);
+            return true;
+        } else if (preference == mStatusBarClockBG) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_CHIP, value ? 1 : 0);
             return true;
         }
         return false;

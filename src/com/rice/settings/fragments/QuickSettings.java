@@ -43,6 +43,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.rice.settings.preferences.CustomSeekBarPreference;
+import com.rice.settings.preferences.SystemSettingSwitchPreference;
+import com.android.internal.util.crdroid.Utils;
 
 import lineageos.providers.LineageSettings;
 
@@ -66,6 +68,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String KEY_SYS_INFO = "qs_system_info";
     private static final String KEY_QS_CLOCK_SIZE = "qs_header_clock_size";
     private static final String KEY_QS_DATE_SIZE = "qs_header_date_size";
+    private static final String KEY_QS_TILE_STYLE = "qs_tile_style";
 
     private ListPreference mShowBrightnessSlider;
     private ListPreference mBrightnessSliderPosition;
@@ -76,6 +79,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ListPreference mSystemInfo;
     private CustomSeekBarPreference mQsClockSize;
     private CustomSeekBarPreference mQSDateSize;
+    private SystemSettingSwitchPreference mQSTileStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -126,6 +130,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mQSDateSize.setValue(qsDateSize / 1);
         mQSDateSize.setOnPreferenceChangeListener(this);
 
+        mQSTileStyle = (SystemSettingSwitchPreference) findPreference(KEY_QS_TILE_STYLE);
+        mQSTileStyle.setOnPreferenceChangeListener(this);
+
         mSystemInfo = (ListPreference) findPreference(KEY_SYS_INFO);
         boolean mSystemInfoSupported = mContext.getResources().getBoolean(
                 com.android.internal.R.bool.config_supportSystemInfo);
@@ -154,6 +161,9 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int dateWidth = ((Integer)newValue).intValue();
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.QS_HEADER_DATE_SIZE, dateWidth);
+            return true;
+        } else if (preference == mQSTileStyle) {
+            Utils.showSysUIRestartDialog(getContext());
             return true;
         }
         return false;

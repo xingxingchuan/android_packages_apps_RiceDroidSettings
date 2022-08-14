@@ -58,9 +58,12 @@
         android:title="@string/monet_engine_linear_lightness_title"
         android:defaultValue="false" />
 
-    <com.rice.settings.preferences.SecureSettingSwitchPreference
-        android:key="vivid_colors"
-        android:title="@string/vivid_theme_title"
-        android:summary="@string/vivid_theme_summary" />
+    <com.rice.settings.preferences.SecureSettingListPreference
+        android:key="palette_colors"
+        android:entries="@array/color_palette_entries"
+        android:entryValues="@array/color_palette_values"
+        android:title="@string/color_palette_theme_title"
+        android:summary="%s"
+        android:defaultValue="0" />
 
 </PreferenceScreen>

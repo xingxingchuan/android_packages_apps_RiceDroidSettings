@@ -1007,9 +1007,8 @@
     <string name="fp_wake_unlock_title">Fingerprint wake and unlock</string>
     <string name="fp_wake_unlock_summary">Listen for fingerprint when screen is off</string>
 
-    <!-- Black theme -->
-    <string name="vivid_theme_title">Vivid monet shades</string>
-    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
+    <!-- Color Palettes theme -->
+    <string name="color_palette_theme_title">System color palettes</string>
 
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Clear all notification button</string>
@@ -1223,4 +1222,8 @@
     <string name="qs_date_title_size_title">QS Header Date font size</string>
     
     <string name="status_bar_show_clock_bg">Show clock background chip</string>
+    
+    <!-- Color Palettes -->
+    <string name="black_theme">Black Theme</string>
+    <string name="vivid_theme">Vivid Theme</string>
 </resources>

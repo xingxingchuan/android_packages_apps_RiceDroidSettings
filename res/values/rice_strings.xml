@@ -17,8 +17,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="rice_settings_title" translatable="false">Customizations</string>
-    <string name="rice_settings_summary" translatable="false">Themes, Accent Color, font</string>
+    <string name="rice_customizations_title">Customizations</string>
+    <string name="rice_customizations_summary">Themes, Accent Color, font</string>
     <string name="reset_settings_title">Reset settings</string>
     <string name="reset_settings_message">This will reset most rice settings to their default values for the current user. Would you like to continue?</string>
 

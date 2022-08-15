@@ -885,7 +885,7 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">电池温度</string>
     <!-- Media artwork -->
-    <string name="media_category">媒体通知</string>
+    <string name="media_category">media notification</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
     <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>

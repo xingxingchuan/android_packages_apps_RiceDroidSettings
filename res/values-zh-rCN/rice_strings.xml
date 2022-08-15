@@ -56,10 +56,10 @@
     <string name="changelog_rice_title">最近更新日志</string>
     <string name="changelog_rice_summary">查看已安装 ROM 中的更改</string>
     <string name="changelog_rice_error">无法加载更新日志</string>
-    <string name="what_is_rice">What is riceDroid?</string>
-    <string name="what_is_rice_summary">Ricedroid is an operating system based on lineage/crDroid, that aims to provide necessary &quot;ricing&quot; for android while being fast and stable.</string>
-    <string name="rice_terminology">Terminology</string>
-    <string name="rice_terminology_summary">The rice in the project name can be referred to &quot;rice&quot; (food) itself, but in a sense it is indeed the term &quot;ricing&quot; in linux.</string>
+    <string name="what_is_rice">Ricedroid都有哪些好？</string>
+    <string name="what_is_rice_summary">Ricedroid 是基于lineage/crDroid 开发的ROM。旨在让你&quot;吃得更香&quot; 且让您的设备更加流畅与实用。</string>
+    <string name="rice_terminology">关于项目名</string>
+    <string name="rice_terminology_summary">项目名里的“Rice”既可以指 &quot;米&quot; (食物) 本身, 且在linux中指的是 &quot;ricing&quot; </string>
     <!-- About riceDroid -->
     <string name="about_rice">关于 riceDroid</string>
     <string name="about_device_name">设备</string>
@@ -140,8 +140,8 @@
     <string name="lockscreen_battery_info_title">电池信息</string>
     <string name="lockscreen_battery_info_summary">充电时显示电池信息</string>
     <!-- Lockscreen clock color -->
-    <string name="lockscreen_clock_color_title">Lockscreen clock color</string>
-    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock, if disabled will use color accent</string>
+    <string name="lockscreen_clock_color_title">锁屏时钟颜色</string>
+    <string name="lockscreen_clock_color_summary">开启则使用主题的副色调，若关闭则使用主题的强调色</string>
     <!-- Button settings -->
     <string name="additional_buttons_title">更多按钮</string>
     <string name="hardware_keys_power_key_title">电源键</string>
@@ -563,11 +563,11 @@
     <string name="qs_show_auto_brightness_title">自动亮度图标</string>
     <string name="qs_show_auto_brightness_summary">在亮度滑块附近显示自动调节亮度开关</string>
     <!-- AOD Schedule -->
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="always_on_display_schedule_title">设定始终显示的时间</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="always_on_display_schedule_mixed_sunset">从日出到一个时间一直显示</string>
+    <string name="always_on_display_schedule_mixed_sunrise">从一个时间到日出一直显示</string>
     <!-- Statusbar colored icons -->
     <string name="statusbar_colored_icons_title">图标着色</string>
     <string name="statusbar_colored_icons_summary">使用适当的应用程序图标作为状态栏中的通知图标</string>
@@ -722,7 +722,7 @@
     <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
     <!-- Unlimited google photos storage -->
     <string name="use_photos_spoof_title">无限照片存储</string>
-    <string name="use_photos_spoof_summary">将您的设备伪装成 Pixel XL for Google Photos 应用，仅提供无限存储空间进行备份</string>
+    <string name="use_photos_spoof_summary">将您的设备伪装成 Pixel XL。仅为 Google Photos 应用提供无限存储空间进行备份</string>
     <!-- Unlock FPS for specific games -->
     <string name="use_games_spoof_title">在游戏中解锁更高的 FPS</string>
     <string name="use_games_spoof_summary">将您的设备伪装成特定游戏的不同型号以解锁更高的 FPS</string>
@@ -885,7 +885,7 @@
     <!-- Battery temperature -->
     <string name="battery_temperature">电池温度</string>
     <!-- Media artwork -->
-    <string name="media_category">Media notification</string>
+    <string name="media_category">媒体通知</string>
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
     <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
